@@ -1,5 +1,6 @@
 # Never commit credentials
 .env
+.token-backup.txt
 
 # Rendered art and staged copies live on Netlify, not in the repo.
 # The repo holds the schedule, the captions and the publisher.
