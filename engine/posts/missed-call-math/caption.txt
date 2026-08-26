@@ -1,0 +1,15 @@
+Most contractors have never once worked out what their missed calls cost them. It takes about ninety seconds and you already have every number you need.
+
+1. Open last month's call log. Count every inbound call nobody answered, evenings and weekends included.
+2. Halve it. Some were suppliers, wrong numbers and spam. Be conservative on purpose.
+3. Apply your own close rate on the calls you do answer. Not an industry average, yours.
+4. Multiply by your average job value. The average one, not the best one you ever did.
+5. That is one month. Now multiply by twelve.
+
+The monthly figure is easy to shrug off. The annual one usually is not.
+
+Most people who do this find the after hours calls are the worst part, because nothing happens to them at all. No voicemail chased, no callback, no record that the call ever existed.
+
+If the number bothers you, I wrote up the full build plan for the AI dispatcher we use to catch these, including the mistakes that took fifty iterations to find. Comment DISPATCH and I will send it over, or grab it from the link in bio.
+
+#contractors #homeservices #hvac #plumbing #roofing #electrician #aiautomation #scaileai

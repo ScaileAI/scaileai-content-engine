@@ -1,0 +1,140 @@
+{
+  "slug": "speed-to-quote",
+  "topic": "Speed to quote beats speed to lead. Built entirely from the ScaileAI sales deck.",
+  "slides": [
+    {
+      "kind": "hook",
+      "headline": [
+        {
+          "text": "THEY DID NOT"
+        },
+        {
+          "text": "OUTSELL YOU",
+          "accent": true
+        }
+      ],
+      "subtitle": "(they just quoted first)",
+      "scene": "The robot stands beside two tall white podiums of equal height. On the near podium sits a large matte navy stopwatch. On the far podium sits an identical stopwatch with a single Scaile blue tick mark glowing on its face."
+    },
+    {
+      "kind": "point",
+      "headline": [
+        {
+          "text": "THE FIRST QUOTE"
+        },
+        {
+          "text": "WINS THE JOB",
+          "accent": true
+        }
+      ],
+      "scene": "The robot stands beside a tall white bar chart of three blocks rising left to right, the tallest block on the right rendered in solid Scaile blue and clearly taller than the other two.",
+      "annotation": "the fastest quote wins, not the best one",
+      "bullets": [
+        "73% of leads go to whoever responds first",
+        "that window is usually about five minutes",
+        "you are on a job site for most of it"
+      ]
+    },
+    {
+      "kind": "point",
+      "headline": [
+        {
+          "text": "SPEED TO LEAD"
+        },
+        {
+          "text": "IS NOT ENOUGH",
+          "accent": true
+        }
+      ],
+      "scene": "The robot holds a large white speech bubble prop with a single thick Scaile blue question mark on it, standing beside a matte navy hourglass with blue sand running through.",
+      "annotation": "a fast reply with no price is still a delay",
+      "bullets": [
+        "answering fast still leaves them waiting",
+        "let me get back to you is a lost job",
+        "they want a number, not a callback"
+      ]
+    },
+    {
+      "kind": "point",
+      "headline": [
+        {
+          "text": "PUT THE PRICE"
+        },
+        {
+          "text": "IN THE CHAT",
+          "accent": true
+        }
+      ],
+      "scene": "The robot holds up a large white phone handset shaped prop displaying one solid Scaile blue rectangle where a price would sit, while a matte navy paper folder lies closed and unused on the floor beside it.",
+      "annotation": "clarity closes, negotiation stalls",
+      "bullets": [
+        "no pdf, no callback, no site visit first",
+        "pricing adjusts by service, scope and location",
+        "lead to booked in about ninety seconds"
+      ]
+    },
+    {
+      "kind": "point",
+      "headline": [
+        {
+          "text": "BOOK IT WHILE"
+        },
+        {
+          "text": "INTENT IS HIGH",
+          "accent": true
+        }
+      ],
+      "scene": "The robot presses a single solid Scaile blue block into an empty slot on a large white calendar grid mounted on the wall, with the surrounding slots left plain white.",
+      "annotation": "intent peaks once, right after the number lands",
+      "bullets": [
+        "the calendar opens in the same conversation",
+        "confirmations and reminders send themselves",
+        "no phone tag and no checking the diary"
+      ]
+    },
+    {
+      "kind": "point",
+      "headline": [
+        {
+          "text": "WORK THE LEADS"
+        },
+        {
+          "text": "YOU ALREADY PAID FOR",
+          "accent": true
+        }
+      ],
+      "scene": "The robot lifts a large white filing box with a matte navy lid, and three Scaile blue cards rise out of it into the air above the box.",
+      "annotation": "you already bought these, stop letting them rot",
+      "bullets": [
+        "old and cold leads get followed up automatically",
+        "multi touch across sms, email and chat",
+        "sunk ad spend turns back into booked jobs"
+      ]
+    },
+    {
+      "kind": "cta",
+      "headline": [
+        {
+          "text": "SEE IT ON"
+        },
+        {
+          "text": "YOUR NUMBERS",
+          "accent": true
+        }
+      ],
+      "scene": "The robot stands beside a large white door standing open on the flat background, a band of Scaile blue light falling through the doorway onto the floor.",
+      "ctaWord": "SPEED",
+      "ctaPromise": "comment it and I will send you the speed to quote breakdown"
+    }
+  ],
+  "caption": "Your competitor did not outsell you. They just quoted first.\n\n1. The first quote wins. 73% of leads go to whoever responds first, and that window is about five minutes. You are on a job site for most of it.\n2. Speed to lead is not enough. A fast reply with no price is still a delay. Let me get back to you is a lost job.\n3. Put the price in the chat. No pdf, no callback, no site visit first. Lead to booked in about ninety seconds.\n4. Book while intent is high. The calendar opens in the same conversation, and confirmations send themselves.\n5. Work the leads you already paid for. Old and cold leads get followed up automatically across sms, email and chat.\n\nIt is not speed to lead. It is speed to quote.\n\nWant the breakdown on your own numbers? Comment SPEED and I will send it over.",
+  "hashtags": [
+    "#homeservices",
+    "#contractors",
+    "#hvac",
+    "#roofing",
+    "#aiautomation",
+    "#scaileai"
+  ],
+  "character": "closer"
+}

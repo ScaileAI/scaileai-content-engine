@@ -1,0 +1,10 @@
+{
+  "_comment": "The posting schedule. One entry per post. Times are LOCAL to the timezone below. Delete an entry to cancel it; change publishAt to move it. status: queued | posted | skipped.",
+  "timezone": "America/Denver",
+  "slots": {
+    "morning": "06:50",
+    "afternoon": "16:40",
+    "saturday": "10:10"
+  },
+  "posts": []
+}

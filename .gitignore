@@ -1,0 +1,22 @@
+# Never commit credentials
+.env
+
+# Rendered art and staged copies live on Netlify, not in the repo.
+# The repo holds the schedule, the captions and the publisher.
+ig-posts/
+netlify-public/
+guides-public/
+
+# Client source material stays local
+source-material/
+
+# The skill's own working copy and the original download
+ig-carousel/
+shorts-from-longform/
+shorts-from-scratch/
+claude-content-skills_instagram.zip
+
+node_modules/
+
+# netlify-cli local state
+.netlify/

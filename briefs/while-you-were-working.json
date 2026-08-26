@@ -1,0 +1,47 @@
+{
+  "slug": "while-you-were-working",
+  "topic": "REEL. WHILE YOU WERE WORKING pillar. Four beats: contractor working, phone ringing, AI answers, job booked.",
+  "character": false,
+  "counter": false,
+  "footerCta": "COMMENT DISPATCH FOR THE PLAN",
+  "slides": [
+    {
+      "kind": "hook",
+      "headline": [
+        { "text": "YOU WERE" },
+        { "text": "UNDER A HOUSE", "accent": true }
+      ],
+      "scene": "A real home-service technician in a work shirt lies on his back in a cramped crawl space under a house, both hands up inside a pipe joint, a work light throwing hard shadows across the joists. He is absorbed in the repair. Nothing else competes for attention."
+    },
+    {
+      "kind": "point",
+      "headline": [
+        { "text": "THE PHONE" },
+        { "text": "KEPT RINGING", "accent": true }
+      ],
+      "scene": "A phone lies face up on a dusty concrete floor just outside the crawl space opening, its screen lit with an incoming call. The technician's boots are visible in the dark opening behind it, still working. Three faint Scaile blue arcs curve in toward the phone."
+    },
+    {
+      "kind": "point",
+      "character": true,
+      "headline": [
+        { "text": "SO IT GOT" },
+        { "text": "ANSWERED", "accent": true }
+      ],
+      "scene": "The ScaileAI field technician wears a slim headset and holds the phone to the side of its head, standing in the same garage beside the crawl space opening. One mitten hand is raised slightly, mid-conversation. A single Scaile blue arc now connects cleanly into the phone."
+    },
+    {
+      "kind": "cta",
+      "character": true,
+      "headline": [
+        { "text": "AND THE JOB" },
+        { "text": "GOT BOOKED", "accent": true }
+      ],
+      "scene": "The ScaileAI field technician presses one solid Scaile blue block firmly into an empty slot on a large white calendar grid mounted on the garage wall, while the human technician is visible in the background still working under the house.",
+      "ctaWord": "DISPATCH",
+      "ctaPromise": "comment it and I will send the build plan"
+    }
+  ],
+  "caption": "You were under a house with both hands full. The phone was on the floor by the crawl space, ringing.\n\nThat is not a discipline problem. You physically could not answer it.\n\nThe question is only what happened next. For most contractors the answer is nothing. It rang out, the caller tried the next name on their list, and no record of it exists anywhere in the business.\n\nThe fix is not answering more calls yourself. It is having something that answers on the first ring, asks what you would ask, and puts the job on the calendar while you finish the one you are on.\n\nYou do the work. The system keeps the business moving.\n\nI wrote up the full build plan for the dispatcher we use, including the failures that took fifty iterations to find. Comment DISPATCH and I will send it over.",
+  "hashtags": ["#contractors", "#homeservices", "#plumbing", "#hvac", "#electrician", "#aiautomation", "#scaileai"]
+}

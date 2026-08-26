@@ -1,0 +1,97 @@
+{
+  "slug": "voice-agents-for-contractors",
+  "topic": "Why contractors lose jobs to missed calls, and what a voice agent actually does about it",
+  "slides": [
+    {
+      "kind": "hook",
+      "headline": [
+        { "text": "YOUR PHONE" },
+        { "text": "IS THE LEAK", "accent": true }
+      ],
+      "subtitle": "(what a missed call actually costs you)",
+      "scene": "The robot stands beside a large matte navy telephone handset lying on its side on the floor, with a single Scaile blue droplet falling from the earpiece onto the flat white surface below."
+    },
+    {
+      "kind": "point",
+      "headline": [
+        { "text": "THE CALL COMES" },
+        { "text": "AT THE WORST TIME", "accent": true }
+      ],
+      "scene": "The robot stands near the top of a tall white ladder holding a matte navy toolbox with both hands, while a small Scaile blue telephone handset sits ringing on the floor far below.",
+      "annotation": "the lead was never lost, it was just unanswered",
+      "bullets": [
+        "you are on a roof with both hands full",
+        "the phone rings out and goes to voicemail",
+        "they call the next contractor on the list"
+      ]
+    },
+    {
+      "kind": "point",
+      "headline": [
+        { "text": "VOICEMAIL IS NOT" },
+        { "text": "A SAFETY NET", "accent": true }
+      ],
+      "scene": "The robot stands beside a tall white answering machine with one large Scaile blue counter panel on its front, next to a small untouched stack of white cassette tapes.",
+      "annotation": "a voicemail is a lead with a countdown on it",
+      "bullets": [
+        "most callers hang up before the beep",
+        "the ones who leave a message wait for a callback",
+        "by the callback they have booked someone else"
+      ]
+    },
+    {
+      "kind": "point",
+      "headline": [
+        { "text": "A VOICE AGENT" },
+        { "text": "BOOKS THE JOB", "accent": true }
+      ],
+      "scene": "The robot sits at a low white desk wearing a slim navy headset, while a large solid Scaile blue block slides into an empty slot on a white calendar grid mounted on the wall behind it.",
+      "annotation": "the agent is not the sales pitch, it is the intake",
+      "bullets": [
+        "it answers on the first ring every time",
+        "it asks the qualifying questions you would ask",
+        "it writes the job straight into your calendar"
+      ]
+    },
+    {
+      "kind": "point",
+      "headline": [
+        { "text": "SCRIPT IT LIKE" },
+        { "text": "A DISPATCHER", "accent": true }
+      ],
+      "scene": "The robot holds up a large white clipboard marked with three thick horizontal Scaile blue rules, standing beside a matte navy two way radio resting on a short white stand.",
+      "annotation": "the good ones sound like your best office manager",
+      "bullets": [
+        "get the address and the fault before the email",
+        "ask what is broken, not how they found you",
+        "hand off to a human the moment money comes up"
+      ]
+    },
+    {
+      "kind": "point",
+      "headline": [
+        { "text": "TEST IT LIKE" },
+        { "text": "IT WILL FAIL", "accent": true }
+      ],
+      "scene": "The robot holds a matte navy telephone handset to the side of its head while standing in front of a flat white wall covered in a neat grid of small round Scaile blue lights, with one light in the middle dark and switched off.",
+      "annotation": "every agent breaks somewhere, find it before a customer does",
+      "bullets": [
+        "call it yourself and try to confuse it",
+        "give it a mumbled name and a bad address",
+        "check what it does when the caller is angry"
+      ]
+    },
+    {
+      "kind": "cta",
+      "headline": [
+        { "text": "WANT THE" },
+        { "text": "BUILD PLAN", "accent": true }
+      ],
+      "scene": "The robot stands beside a large flat white envelope propped upright, with a single thick Scaile blue line running across its front, one mitten hand raised in a still wave.",
+      "ctaWord": "DISPATCH",
+      "ctaPromise": "comment it and I will send you the voice agent build plan"
+    }
+  ],
+  "caption": "Your phone is the leak. Most contractors do not lose jobs on price, they lose them on the call nobody picked up.\n\n1. The call always comes at the worst time. You are on a roof, both hands full, and it rings out.\n2. Voicemail is not a safety net. Most callers hang up before the beep, and the ones who do leave a message have booked someone else by the time you ring back.\n3. A voice agent books the job. It answers on the first ring, asks what you would ask, and writes it into the calendar.\n4. Script it like a dispatcher, not a salesperson. Address and fault first. Hand off to a human the moment money comes up.\n5. Test it like it will fail. Call it yourself, mumble, give a bad address, get angry at it. Every agent breaks somewhere and you want to be the one who finds it.\n\nIf you want the build plan I use for these, comment DISPATCH and I will send it over.",
+  "hashtags": ["#voiceai", "#homeservices", "#hvac", "#contractors", "#aiautomation", "#scaileai"]
+}

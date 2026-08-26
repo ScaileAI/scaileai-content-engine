@@ -1,0 +1,98 @@
+{
+  "slug": "missed-call-math",
+  "topic": "CONTRACTOR MATH pillar. Teach the reader to calculate their own missed-call cost. No borrowed statistics.",
+  "character": "closer",
+  "slides": [
+    {
+      "kind": "hook",
+      "headline": [
+        { "text": "YOUR MISSED CALLS" },
+        { "text": "HAVE A PRICE", "accent": true }
+      ],
+      "subtitle": "(work it out on your own numbers)",
+      "scene": "The robot holds up a large flat white slab with both hands, like a calculator with no keys. A single solid Scaile blue rectangle glows across the upper face of the slab where a total would appear."
+    },
+    {
+      "kind": "point",
+      "headline": [
+        { "text": "START WITH" },
+        { "text": "YOUR PHONE LOG", "accent": true }
+      ],
+      "scene": "The robot pulls a long white paper strip out of a matte navy phone handset, and the strip unfurls down across the floor in front of it in loose folds.",
+      "annotation": "the number is already in your pocket",
+      "bullets": [
+        "open your call log for last month",
+        "count every inbound call nobody answered",
+        "include the evenings and the weekends"
+      ]
+    },
+    {
+      "kind": "point",
+      "headline": [
+        { "text": "NOT EVERY MISS" },
+        { "text": "WAS A JOB", "accent": true }
+      ],
+      "scene": "The robot sorts plain white blocks into two separate stacks on the floor, one stack noticeably taller than the other, holding a single block in one mitten hand mid-sort.",
+      "annotation": "be conservative, it still lands hard",
+      "bullets": [
+        "some were suppliers, wrong numbers, spam",
+        "cut your count in half to be safe",
+        "whatever survives, treat as real buyers"
+      ]
+    },
+    {
+      "kind": "point",
+      "headline": [
+        { "text": "USE YOUR OWN" },
+        { "text": "CLOSE RATE", "accent": true }
+      ],
+      "scene": "The robot holds a white tablet slab in one hand showing three thick Scaile blue horizontal bars of increasing length, and points at the longest bar with the other hand.",
+      "annotation": "not knowing it is finding number one",
+      "bullets": [
+        "of the calls you answer, how many book",
+        "use your figure, not an industry average",
+        "if you do not know it, start tracking today"
+      ]
+    },
+    {
+      "kind": "point",
+      "headline": [
+        { "text": "MULTIPLY BY" },
+        { "text": "YOUR AVERAGE JOB", "accent": true }
+      ],
+      "scene": "The robot lifts a single large Scaile blue cube with both hands, and a row of smaller plain white cubes sits lined up on the floor beside it.",
+      "annotation": "your average ticket, not your best one",
+      "bullets": [
+        "missed calls, halved, times your close rate",
+        "times what an average job is worth",
+        "that is one month of invisible losses"
+      ]
+    },
+    {
+      "kind": "point",
+      "headline": [
+        { "text": "NOW MULTIPLY" },
+        { "text": "BY TWELVE", "accent": true }
+      ],
+      "scene": "The robot pushes a tall Scaile blue column upward with both hands raised above its head, while eleven shorter plain white columns stand in a row behind it.",
+      "annotation": "the monthly number is easy to ignore",
+      "bullets": [
+        "the yearly figure is the one that stings",
+        "write it somewhere you will see tomorrow",
+        "then decide whether it is worth fixing"
+      ]
+    },
+    {
+      "kind": "cta",
+      "headline": [
+        { "text": "WANT THE" },
+        { "text": "FIX", "accent": true }
+      ],
+      "scene": "The robot stands beside a large white envelope propped upright on the floor, one thick Scaile blue band running across its front, one mitten hand raised in a still wave.",
+      "ctaWord": "DISPATCH",
+      "ctaPromise": "comment it and I will send you the build plan"
+    }
+  ],
+  "caption": "Most contractors have never once worked out what their missed calls cost them. It takes about ninety seconds and you already have every number you need.\n\n1. Open last month's call log. Count every inbound call nobody answered, evenings and weekends included.\n2. Halve it. Some were suppliers, wrong numbers and spam. Be conservative on purpose.\n3. Apply your own close rate on the calls you do answer. Not an industry average, yours.\n4. Multiply by your average job value. The average one, not the best one you ever did.\n5. That is one month. Now multiply by twelve.\n\nThe monthly figure is easy to shrug off. The annual one usually is not.\n\nMost people who do this find the after hours calls are the worst part, because nothing happens to them at all. No voicemail chased, no callback, no record that the call ever existed.\n\nIf the number bothers you, I wrote up the full build plan for the AI dispatcher we use to catch these, including the mistakes that took fifty iterations to find. Comment DISPATCH and I will send it over, or grab it from the link in bio.",
+  "hashtags": ["#contractors", "#homeservices", "#hvac", "#plumbing", "#roofing", "#electrician", "#aiautomation", "#scaileai"]
+}
