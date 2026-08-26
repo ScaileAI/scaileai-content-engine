@@ -139,7 +139,59 @@ const due = (queue.posts || []).filter((p) => {
 if (due.length === 0) {
   const next = (queue.posts || []).filter((p) => p.status === 'queued').sort((a, b) => String(a.publishAt).localeCompare(String(b.publishAt)))[0];
   log(`nothing due. next queued: ${next ? `${next.publishAt} ${next.slug}` : 'none — the queue is empty'}`);
-  process.exit(0);
+
+  // A quiet hour is the only safe moment to test the credentials, and the worst
+  // possible time to discover they are broken is the minute a post is due. So
+  // every idle run proves the token still works and warns before it expires.
+  await healthCheck(next);
+  process.exit(process.exitCode || 0);
+}
+
+/** Verify the token still authenticates, and warn while there is time to act. */
+async function healthCheck(next) {
+  const token = process.env.IG_ACCESS_TOKEN;
+  if (!token) {
+    fail('IG_ACCESS_TOKEN is not set. Nothing can publish until it is.');
+    return;
+  }
+  if (!process.env.IG_BASE_URL) {
+    fail('IG_BASE_URL is not set. Nothing can publish until it is.');
+    return;
+  }
+
+  try {
+    const h = await detectHost(token);
+    const me = await apiGet(h, `me?fields=id,username&access_token=${token}`);
+    log(`token ok: @${me.username}`);
+  } catch (err) {
+    fail(`TOKEN CHECK FAILED: ${err.message}`);
+    return;
+  }
+
+  // Instagram tokens last about 60 days. Warn well before the queue stops.
+  try {
+    const dbg = await apiGet(FB_GRAPH, `debug_token?input_token=${token}&access_token=${token}`);
+    const expires = dbg.data?.expires_at;
+    if (expires) {
+      const days = Math.round((expires * 1000 - Date.now()) / 86400000);
+      log(`token expires in about ${days} days`);
+      if (days <= 10) fail(`Instagram token expires in ${days} days. Regenerate it and update the IG_ACCESS_TOKEN secret.`);
+    }
+  } catch { /* the lifetime endpoint is optional */ }
+
+  // A queue running dry is the other way this stops silently.
+  const queued = (queue.posts || []).filter((p) => p.status === 'queued').length;
+  log(`${queued} post(s) still queued`);
+  if (queued === 0) fail('The queue is empty. Nothing will publish until it is refilled.');
+  else if (queued <= 3) log(`::warning::Only ${queued} post(s) left in the queue. Time to restock.`);
+
+  if (next) {
+    const media = `${(process.env.IG_BASE_URL || '').replace(/\/+$/, '')}/${next.slug}`;
+    const probe = next.type === 'reel' ? `${media}/reel.mp4` : `${media}/slide-01.jpg`;
+    const bad = await verifyMedia([probe]);
+    if (bad.length) fail(`Next post's media is not reachable: ${bad[0]}`);
+    else log(`next post's media is reachable`);
+  }
 }
 
 log(`${due.length} post(s) due\n`);
