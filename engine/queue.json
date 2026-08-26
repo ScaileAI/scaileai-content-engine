@@ -53,6 +53,14 @@
       "status": "queued"
     },
     {
+      "id": "2026-08-31-pm",
+      "publishAt": "2026-08-31T16:40",
+      "slug": "the-second-shift",
+      "type": "carousel",
+      "slides": 7,
+      "status": "queued"
+    },
+    {
       "id": "2026-09-01-am",
       "publishAt": "2026-09-01T06:50",
       "slug": "while-you-were-driving",
@@ -70,6 +78,21 @@
       "id": "2026-09-02-am",
       "publishAt": "2026-09-02T06:50",
       "slug": "stop-making-them-wait",
+      "type": "image",
+      "status": "queued"
+    },
+    {
+      "id": "2026-09-02-pm",
+      "publishAt": "2026-09-02T16:40",
+      "slug": "what-happens-in-ninety-seconds",
+      "type": "carousel",
+      "slides": 7,
+      "status": "queued"
+    },
+    {
+      "id": "2026-09-05-sat",
+      "publishAt": "2026-09-05T10:10",
+      "slug": "you-are-not-the-bottleneck",
       "type": "image",
       "status": "queued"
     }

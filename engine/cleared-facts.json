@@ -1,27 +1,79 @@
 {
   "_comment": "Numbers cleared to appear in a post, traced to source material in Claude_Instagram/source-material/. Any other figure in a headline, bullet or caption is flagged by validate.mjs and must be sourced or removed. Add here only what you can point at.",
-
   "allowed": [
-    { "pattern": "73%",        "source": "ScaileAI sales deck slide 2 (stated without citation; Dan stands behind it)" },
-    { "pattern": "five minutes", "source": "sales deck slide 2, response window" },
-    { "pattern": "5 minutes",  "source": "sales deck slide 2, response window" },
-    { "pattern": "90 second",  "source": "sales deck slides 3-4, lead to booked" },
-    { "pattern": "ninety second", "source": "sales deck slides 3-4, lead to booked" },
-    { "pattern": "$99",        "source": "Booked Jobs one-sheet, per booked job" },
-    { "pattern": "$149",       "source": "Booked Jobs one-sheet, per booked job" },
-    { "pattern": "$1,000",     "source": "sales deck slide 13, one-time build" },
-    { "pattern": "$497",       "source": "sales deck slide 13, monthly" },
-    { "pattern": "$10,182",    "source": "sales deck slide 13, standalone value" },
-    { "pattern": "eleven systems", "source": "sales deck slide 5" },
-    { "pattern": "one week",   "source": "sales deck slide 14, time to live" },
-    { "pattern": "day one",    "source": "sales deck slide 14, first booked job" },
-    { "pattern": "fifty iterations", "source": "Retell build history, 50+ iterations" },
-    { "pattern": "twelve",     "source": "arithmetic, months in a year" },
-    { "pattern": "9pm",        "source": "narrative time of day, not a claim" },
-    { "pattern": "7:40",       "source": "narrative time of day, not a claim" },
-    { "pattern": "11pm",       "source": "narrative time of day, not a claim" }
+    {
+      "pattern": "73%",
+      "source": "ScaileAI sales deck slide 2 (stated without citation; Dan stands behind it)"
+    },
+    {
+      "pattern": "five minutes",
+      "source": "sales deck slide 2, response window"
+    },
+    {
+      "pattern": "5 minutes",
+      "source": "sales deck slide 2, response window"
+    },
+    {
+      "pattern": "90 second",
+      "source": "sales deck slides 3-4, lead to booked"
+    },
+    {
+      "pattern": "ninety second",
+      "source": "sales deck slides 3-4, lead to booked"
+    },
+    {
+      "pattern": "$99",
+      "source": "Booked Jobs one-sheet, per booked job"
+    },
+    {
+      "pattern": "$149",
+      "source": "Booked Jobs one-sheet, per booked job"
+    },
+    {
+      "pattern": "$1,000",
+      "source": "sales deck slide 13, one-time build"
+    },
+    {
+      "pattern": "$497",
+      "source": "sales deck slide 13, monthly"
+    },
+    {
+      "pattern": "$10,182",
+      "source": "sales deck slide 13, standalone value"
+    },
+    {
+      "pattern": "eleven systems",
+      "source": "sales deck slide 5"
+    },
+    {
+      "pattern": "one week",
+      "source": "sales deck slide 14, time to live"
+    },
+    {
+      "pattern": "day one",
+      "source": "sales deck slide 14, first booked job"
+    },
+    {
+      "pattern": "fifty iterations",
+      "source": "Retell build history, 50+ iterations"
+    },
+    {
+      "pattern": "twelve",
+      "source": "arithmetic, months in a year"
+    },
+    {
+      "pattern": "9pm",
+      "source": "narrative time of day, not a claim"
+    },
+    {
+      "pattern": "7:40",
+      "source": "narrative time of day, not a claim"
+    },
+    {
+      "pattern": "11pm",
+      "source": "narrative time of day, not a claim"
+    }
   ],
-
   "footerCtas": [
     "SAVE FOR LATER",
     "COMMENT AI FOR THE GUIDE",
@@ -33,18 +85,28 @@
     "DM QUOTE FOR THE BREAKDOWN",
     "FOLLOW @SCAILEAI",
     "BOOK A 20-MINUTE DEMO",
-    "SEE HOW SCAILEAI WORKS"
+    "SEE HOW SCAILEAI WORKS",
+    "COMMENT AUTOMATE FOR THE GUIDE",
+    "DM AUTOMATE FOR THE GUIDE"
   ],
-
   "liveAssets": {
     "DISPATCH": "https://scaileai-guides.netlify.app/dispatch",
-    "SPEED": "https://scaileai-guides.netlify.app/speed"
+    "SPEED": "https://scaileai-guides.netlify.app/speed",
+    "AUTOMATE": "https://scaileai-guides.netlify.app/automate"
   },
-
   "bannedPhrases": [
-    "game changer", "game-changer", "unlock", "leverage", "revolutionary",
-    "seamless", "supercharge", "in today's world", "most people don't realise",
-    "most people don't realize", "nobody talks about this", "here's the thing",
+    "game changer",
+    "game-changer",
+    "unlock",
+    "leverage",
+    "revolutionary",
+    "seamless",
+    "supercharge",
+    "in today's world",
+    "most people don't realise",
+    "most people don't realize",
+    "nobody talks about this",
+    "here's the thing",
     "elevate"
   ]
 }
