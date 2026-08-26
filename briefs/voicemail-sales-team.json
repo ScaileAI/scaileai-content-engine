@@ -7,13 +7,29 @@
     {
       "kind": "hook",
       "headline": [
-        { "text": "YOUR VOICEMAIL" },
-        { "text": "IS NOT A SALES TEAM", "accent": true }
+        {
+          "text": "YOUR VOICEMAIL"
+        },
+        {
+          "text": "IS NOT A SALES TEAM",
+          "accent": true
+        }
       ],
       "subtitle": "(nobody was ever sold by a beep)",
       "scene": "A worn workbench in a working garage, photographed close and low. A matte navy telephone handset lies on the bench mid-ring, surrounded by real used hand tools: an adjustable wrench, a torque driver, a coiled length of copper pipe, a pair of scuffed work gloves. Three slim Scaile blue arcs of light curve down toward the phone from the upper left, glance past it without touching, and continue away off the right edge of the frame. Every surface is plain, with no labels, markings or signage anywhere."
     }
   ],
   "caption": "Your voicemail is not a sales team.\n\nIt does not qualify anybody. It does not book anything. It does not call them back. It sits there and holds a message you will listen to after the customer has already hired someone else.\n\nAnd that is the best case. Most people who ring a contractor and get a recording simply hang up and try the next name on the list. No message, no record, no trace that the call ever happened.\n\nSo you go looking for the problem in your ads, or your pricing, or your reviews. The problem was a phone nobody could reach for forty minutes because you were under a house.\n\nAnswering every call yourself is not the fix either. You cannot be on a job and on the phone at the same time, and hiring someone to sit by it rarely pays for itself at your volume.\n\nThe fix is something that answers on the first ring, asks what you would ask, and puts the job on your calendar while you keep working.\n\nI wrote up the full build plan for the one we use, including the failures that took fifty iterations to find. Comment DISPATCH and I will send it over.",
-  "hashtags": ["#contractors", "#homeservices", "#hvac", "#plumbing", "#electrician", "#roofing", "#aiautomation", "#scaileai"]
+  "hashtags": [
+    "#contractors",
+    "#homeservices",
+    "#hvac",
+    "#plumbing",
+    "#electrician",
+    "#roofing",
+    "#aiautomation",
+    "#scaileai"
+  ],
+  "publishedAt": "2026-08-26",
+  "type": "image"
 }

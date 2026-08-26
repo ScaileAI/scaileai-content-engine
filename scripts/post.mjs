@@ -62,6 +62,11 @@ if (dryRun) {
   process.exit(0);
 }
 
+// Validate before spending anything further. A brief that fails the checks
+// should not reach the logo step, let alone the feed.
+banner('Validating the brief');
+run('node', ['engine/validate.mjs', briefPath], 'Validation');
+
 // 2. Stamp the real logo on. The model is forbidden from drawing one, so this is
 // the only place it can come from.
 banner('Adding the ScaileAI logo');

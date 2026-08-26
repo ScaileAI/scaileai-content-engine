@@ -6,13 +6,28 @@
     {
       "kind": "hook",
       "headline": [
-        { "text": "LOSING LEADS" },
-        { "text": "THAT CALL", "accent": true }
+        {
+          "text": "LOSING LEADS"
+        },
+        {
+          "text": "THAT CALL",
+          "accent": true
+        }
       ],
       "subtitle": "(the ones who never leave a voicemail)",
       "scene": "The robot lunges sideways and catches a falling matte navy telephone handset in both hands, inches above a dark rectangular opening cut into the flat white floor. A single Scaile blue ring of light pulses around the handset. The opening below is plain and empty."
     }
   ],
   "caption": "The lead you never knew about did not fill in a form.\n\nThey rang once, at 7:40 on a Tuesday evening, while you were finishing a job. It went to voicemail. They hung up without leaving one, and called the next contractor on the list.\n\nThere is no record of that call anywhere in your business. No missed lead in a CRM, no name to follow up. It simply did not happen, as far as your numbers are concerned.\n\nThat is the expensive part. Not that you missed it, but that you cannot see it, so you go looking for the problem in your ads and your pricing instead.\n\nThree things worth checking this week:\n\n1. Ring your own number and hang up without leaving a message. See whether anything at all happens next.\n2. Send yourself an enquiry at 9pm on a Saturday and time the reply.\n3. Count how many of last month's quotes never got a second follow up.\n\nIf the answers are uncomfortable, that is where your missing jobs went.\n\nI wrote up the full build plan for the AI dispatcher we use to catch these, including the mistakes that cost us fifty iterations to find. Free, no email needed: scaileai-guides.netlify.app/dispatch",
-  "hashtags": ["#homeservices", "#contractors", "#hvac", "#plumbing", "#roofing", "#aiautomation", "#scaileai"]
+  "hashtags": [
+    "#homeservices",
+    "#contractors",
+    "#hvac",
+    "#plumbing",
+    "#roofing",
+    "#aiautomation",
+    "#scaileai"
+  ],
+  "publishedAt": "2026-08-20",
+  "type": "image"
 }

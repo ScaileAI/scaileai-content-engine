@@ -1,0 +1,28 @@
+name: Validate briefs
+
+# Runs on every push. The publisher trusts that whatever reached the queue was
+# checked, so this is where that assumption is earned.
+on:
+  push:
+    paths:
+      - 'briefs/**'
+      - 'engine/**'
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+
+      - name: Validate every brief
+        env:
+          IG_BASE_URL: ${{ secrets.IG_BASE_URL }}
+        run: node engine/validate.mjs --all

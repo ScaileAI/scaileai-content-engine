@@ -7,13 +7,27 @@
     {
       "kind": "hook",
       "headline": [
-        { "text": "YOUR CUSTOMERS" },
-        { "text": "DON'T KEEP OFFICE HOURS", "accent": true }
+        {
+          "text": "YOUR CUSTOMERS"
+        },
+        {
+          "text": "DON'T KEEP OFFICE HOURS",
+          "accent": true
+        }
       ],
       "subtitle": "(the water heater went at 9pm)",
       "scene": "A suburban house at night, photographed from the driveway. One upstairs window glows warm; every other window is dark. On the front step a phone lies face up, its screen glowing pale blue with indistinct content. A single thin Scaile blue path of light rises from the phone, arcs across the dark yard, and fades out beside an unlit service van parked on the driveway with its doors closed. No signage, lettering or markings on the van or the house."
     }
   ],
   "caption": "The water heater does not fail during business hours. Neither does the AC, the breaker panel or the pipe under the sink.\n\nIt fails at nine at night, and a homeowner stands in a wet hallway looking at their phone deciding who to call.\n\nBy the time your office opens, that job belongs to whoever answered. Not whoever was best. Whoever answered.\n\nThis is the part most contractors underprice in their own heads. You are not competing on skill at nine at night. You are competing on availability, against companies who are also asleep, and the first one to respond takes it.\n\nThere are only three real options. Answer the phone yourself at all hours, which nobody sustains. Pay somebody to sit by it, which rarely pays for itself at most volumes. Or have a system that answers, qualifies and books while you sleep.\n\nI wrote up the full build plan for the one we use, including the failures that took fifty iterations to find. DM me DISPATCH and I will send it over.",
-  "hashtags": ["#contractors", "#homeservices", "#plumbing", "#hvac", "#emergencyservice", "#aiautomation", "#scaileai"]
+  "hashtags": [
+    "#contractors",
+    "#homeservices",
+    "#plumbing",
+    "#hvac",
+    "#emergencyservice",
+    "#aiautomation",
+    "#scaileai"
+  ],
+  "type": "image"
 }
