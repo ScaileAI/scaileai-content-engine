@@ -84,9 +84,22 @@ if (token && site) {
   const d = spawnSync('npx', ['-y', 'netlify-cli', 'deploy', '--prod', '--dir', 'netlify-public', '--site', site, '--auth', token],
     { cwd: projectDir, encoding: 'utf8', shell: true });
   const line = (d.stdout || '').split('\n').find((l) => /Deployed to production/.test(l));
-  console.log(line ? line.trim() : 'deploy finished');
+
+  // Never report success from the absence of an error. An earlier version printed
+  // "deploy finished" whenever it could not find the success line, which is how a
+  // rejected token looked exactly like a working deploy.
+  if (d.status !== 0 || !line) {
+    console.log('DEPLOY FAILED. The images are built and staged but are NOT on the web.');
+    const why = (d.stderr || d.stdout || '').split('\n').filter((l) => l.trim()).slice(-4);
+    why.forEach((l) => console.log('  ' + l.trim()));
+    console.log('\nFix the credentials, then re-run:  node scripts/stage-for-netlify.mjs <post-dir>');
+    process.exitCode = 1;
+  } else {
+    console.log(line.trim());
+  }
 } else {
   console.log('\nNETLIFY credentials missing, nothing deployed.');
+  process.exitCode = 1;
 }
 
 if (failed.length) process.exitCode = 1;
