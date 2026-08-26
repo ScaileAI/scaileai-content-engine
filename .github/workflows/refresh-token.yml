@@ -1,0 +1,54 @@
+name: Refresh Instagram token
+
+# Weekly. The token lasts about 60 days and the refresh only acts when fewer than
+# 20 days remain, so this is quiet most weeks and acts well before anything breaks.
+#
+# Without this the engine fails silently: the hourly job keeps running, the API
+# keeps refusing, and nothing appears on the feed.
+on:
+  schedule:
+    - cron: '37 14 * * 1'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Refresh even if the token has plenty of life left'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+
+      - name: Install encryption library
+        run: npm install --no-save libsodium-wrappers
+
+      - name: Refresh the token
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          # Optional. Without it the refresh still runs and reports, but the
+          # secret has to be updated by hand.
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: node engine/refresh-token.mjs ${{ inputs.force && '--force' || '' }}
+
+      - name: Record the new issue date
+        run: |
+          if [[ -n "$(git status --porcelain engine/token.json)" ]]; then
+            git config user.name  "scaileai-content-engine"
+            git config user.email "actions@users.noreply.github.com"
+            git add engine/token.json
+            git commit -m "token refreshed [skip ci]"
+            git push
+          else
+            echo "token.json unchanged"
+          fi

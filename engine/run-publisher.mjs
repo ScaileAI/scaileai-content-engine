@@ -32,9 +32,10 @@ const dryRun = process.argv.includes('--dry-run');
 const IG_GRAPH = 'https://graph.instagram.com/v25.0';
 const FB_GRAPH = 'https://graph.facebook.com/v25.0';
 
-// How late a post may still go out. If the job was down for a while we would
-// rather skip a stale slot than publish a "good morning" post at 4pm.
-const GRACE_MINUTES = 150;
+// How late a post may still go out. If Actions was delayed or down we would
+// rather skip a stale slot than publish a "good morning" post in the afternoon.
+// Three hours: a 06:50 slot can still publish up to 09:50.
+const GRACE_MINUTES = 180;
 
 // ── helpers ───────────────────────────────────────────────────────────────────
 
@@ -168,16 +169,23 @@ async function healthCheck(next) {
     return;
   }
 
-  // Instagram tokens last about 60 days. Warn well before the queue stops.
-  try {
-    const dbg = await apiGet(FB_GRAPH, `debug_token?input_token=${token}&access_token=${token}`);
-    const expires = dbg.data?.expires_at;
-    if (expires) {
-      const days = Math.round((expires * 1000 - Date.now()) / 86400000);
-      log(`token expires in about ${days} days`);
-      if (days <= 10) fail(`Instagram token expires in ${days} days. Regenerate it and update the IG_ACCESS_TOKEN secret.`);
+  // Instagram tokens last about 60 days. debug_token does not answer for the
+  // Instagram Login route, so the remaining life is calculated from the recorded
+  // issue date in token.json instead of asked for. The weekly refresh workflow
+  // keeps that date current.
+  const metaPath = path.join(engineDir, 'token.json');
+  if (fs.existsSync(metaPath)) {
+    const meta = JSON.parse(fs.readFileSync(metaPath, 'utf8'));
+    if (meta.issuedAt) {
+      const issued = new Date(`${meta.issuedAt}T00:00:00Z`).getTime();
+      const days = Math.round((issued + (meta.lifetimeDays || 60) * 86400000 - Date.now()) / 86400000);
+      log(`token has about ${days} day(s) left`);
+      if (days <= 5) fail(`Instagram token expires in ${days} day(s). Refresh it now or posting stops.`);
+      else if (days <= 14) log(`::warning::Token expires in ${days} day(s). The weekly refresh should handle it, but check it ran.`);
     }
-  } catch { /* the lifetime endpoint is optional */ }
+  } else {
+    log('::warning::engine/token.json is missing, so token expiry cannot be tracked.');
+  }
 
   // A queue running dry is the other way this stops silently.
   const queued = (queue.posts || []).filter((p) => p.status === 'queued').length;
