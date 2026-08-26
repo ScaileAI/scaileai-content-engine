@@ -6,5 +6,15 @@
     "afternoon": "16:40",
     "saturday": "10:10"
   },
-  "posts": []
+  "posts": [
+    {
+      "id": "2026-08-27-am",
+      "publishAt": "2026-08-27T06:50",
+      "slug": "office-hours",
+      "type": "image",
+      "slides": 1,
+      "note": "Phase 1 proof. Must publish with nobody present.",
+      "status": "queued"
+    }
+  ]
 }
