@@ -1,0 +1,150 @@
+{
+  "slug": "the-second-shift",
+  "type": "carousel",
+  "pillar": "response",
+  "tone": "authority",
+  "footerCta": "BOOK A 20-MINUTE DEMO",
+  "topic": "The hours your business is closed are the hours homeowners deal with the house.",
+  "slides": [
+    {
+      "kind": "hook",
+      "character": false,
+      "headline": [
+        {
+          "text": "YOUR BUSINESS"
+        },
+        {
+          "text": "NEEDS A SECOND SHIFT",
+          "accent": true
+        }
+      ],
+      "subtitle": "(the one that runs after you clock off)",
+      "scene": "A service van parked on a driveway at dusk, rear doors shut, tools stowed, the last daylight going out of the sky behind it. The house beyond has one lit window."
+    },
+    {
+      "kind": "point",
+      "character": false,
+      "headline": [
+        {
+          "text": "THE HOUSE BREAKS"
+        },
+        {
+          "text": "AFTER WORK",
+          "accent": true
+        }
+      ],
+      "scene": "A kitchen at night lit only by an open fridge, water pooled across the tiles in front of an appliance pulled out from the cabinets.",
+      "annotation": "that is when people notice things",
+      "bullets": [
+        "evenings and weekends are when people are home",
+        "that is when the fault gets discovered",
+        "your office is closed for all of it"
+      ]
+    },
+    {
+      "kind": "point",
+      "character": false,
+      "headline": [
+        {
+          "text": "THEY WILL NOT"
+        },
+        {
+          "text": "WAIT FOR MONDAY",
+          "accent": true
+        }
+      ],
+      "scene": "A homeowner hand holds a phone in a dark hallway, the screen a plain pale blue rectangle with no readable content, a torch beam on wet skirting board beyond.",
+      "annotation": "the list is right there on the screen",
+      "bullets": [
+        "they work down the search results",
+        "the first response usually takes it",
+        "nobody is loyal at eleven at night"
+      ]
+    },
+    {
+      "kind": "point",
+      "character": true,
+      "headline": [
+        {
+          "text": "SOMETHING SHOULD"
+        },
+        {
+          "text": "BE AWAKE",
+          "accent": true
+        }
+      ],
+      "scene": "The ScaileAI field technician stands alone in a dim quiet garage wearing a slim headset, one Scaile blue indicator glowing on its chest, the roller door closed behind it.",
+      "annotation": "not a voicemail, an actual answer",
+      "bullets": [
+        "it answers on the first ring at any hour",
+        "it asks what you would ask",
+        "it books into the morning you have free"
+      ]
+    },
+    {
+      "kind": "point",
+      "character": false,
+      "headline": [
+        {
+          "text": "YOU STILL DECIDE"
+        },
+        {
+          "text": "WHO YOU TAKE",
+          "accent": true
+        }
+      ],
+      "scene": "A white calendar grid on a garage wall with three slots filled by solid Scaile blue blocks and the rest left open, a mug of coffee on the bench below it.",
+      "annotation": "it fills the diary, you run the day",
+      "bullets": [
+        "set the hours you actually want to work",
+        "emergencies route differently to routine jobs",
+        "anything unusual comes to a human"
+      ]
+    },
+    {
+      "kind": "point",
+      "character": false,
+      "headline": [
+        {
+          "text": "THE MORNING"
+        },
+        {
+          "text": "LOOKS DIFFERENT",
+          "accent": true
+        }
+      ],
+      "scene": "A work truck cab at sunrise, coffee in the holder, a phone mounted on the dash showing a plain pale blue panel, the road ahead empty.",
+      "annotation": "the day is already planned before you start it",
+      "bullets": [
+        "you start the day with jobs already set",
+        "no callback list to work through first",
+        "no wondering who rang overnight"
+      ]
+    },
+    {
+      "kind": "cta",
+      "character": true,
+      "headline": [
+        {
+          "text": "SEE IT ON"
+        },
+        {
+          "text": "YOUR NUMBERS",
+          "accent": true
+        }
+      ],
+      "scene": "The ScaileAI field technician stands beside a large white door standing open in a garage wall, a band of Scaile blue light falling through the doorway across the floor.",
+      "ctaWord": "DISPATCH",
+      "ctaPromise": "comment it and I will send the build plan"
+    }
+  ],
+  "caption": "Your business is open roughly a third of the week. The house your customer lives in is open all of it.\n\nThings fail in the evening because that is when people are home to notice them. The AC gives out after dinner. The water heater goes on a Saturday. Somebody finds damp under the sink on a Sunday afternoon.\n\nAt that moment they pick up a phone and start working down a list. They are not loyal to anybody at eleven at night. They just want somebody to answer.\n\nBy Monday morning that job belongs to whoever did.\n\nThe fix is not working longer hours. Nobody sustains that and it is a bad trade anyway. It is having something awake that answers properly, asks what you would ask, and puts the job into a morning you actually have free.\n\nYou still decide which work you take and when you work. It just stops the middle of the night being a dead zone.\n\nIf you want to see how this would run on your numbers, book a twenty minute walkthrough at scaileai.com.",
+  "hashtags": [
+    "#contractors",
+    "#homeservices",
+    "#hvac",
+    "#plumbing",
+    "#emergencyservice",
+    "#scaileai"
+  ]
+}

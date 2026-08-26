@@ -1,0 +1,34 @@
+{
+  "slug": "ads-without-follow-up",
+  "type": "image",
+  "pillar": "visibility",
+  "tone": "authority",
+  "footerCta": "SAVE FOR LATER",
+  "topic": "Marketing does not stop when the lead comes in.",
+  "slides": [
+    {
+      "kind": "hook",
+      "character": false,
+      "headline": [
+        {
+          "text": "MARKETING DOES NOT STOP"
+        },
+        {
+          "text": "AT THE ENQUIRY",
+          "accent": true
+        }
+      ],
+      "subtitle": "(that is where most of it quits)",
+      "scene": "A wide funnel made of clean white panels stands on a workbench, full of small Scaile blue spheres at the top. At the narrow bottom the funnel simply ends in open air above the bench, with spheres scattered loose across the surface below."
+    }
+  ],
+  "caption": "Most contractor marketing is built to produce an enquiry and then stops dead.\n\nThe ad works. The form gets filled in. And then the whole thing depends on somebody noticing, replying quickly, quoting properly and following up twice.\n\nThat last part is not marketing in most people’s heads, which is exactly why it does not get built. It is treated as admin.\n\nIt is not admin. It is the part that decides whether the ad spend produced revenue or just produced enquiries.\n\nA useful test: pick your best performing ad from last month and trace one enquiry all the way through. How long until somebody replied. How long until they had a price. How many times you followed up before giving up.\n\nIf the honest answer is that it depended on how busy you were that day, the problem is not the ad.\n\nSave this and run the trace on one lead this week.",
+  "hashtags": [
+    "#contractors",
+    "#homeservices",
+    "#marketing",
+    "#hvac",
+    "#roofing",
+    "#scaileai"
+  ]
+}

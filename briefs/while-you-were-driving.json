@@ -1,0 +1,75 @@
+{
+  "slug": "while-you-were-driving",
+  "type": "reel",
+  "pillar": "response",
+  "tone": "contractor-truth",
+  "footerCta": "COMMENT DISPATCH FOR THE PLAN",
+  "counter": false,
+  "topic": "WHILE YOU WERE WORKING pillar, second instalment. Between jobs.",
+  "slides": [
+    {
+      "kind": "hook",
+      "character": false,
+      "headline": [
+        {
+          "text": "YOU WERE"
+        },
+        {
+          "text": "BETWEEN JOBS",
+          "accent": true
+        }
+      ],
+      "scene": "A contractor drives a work truck on a suburban road, both hands on the wheel, tools visible in the bed behind, mid afternoon light."
+    },
+    {
+      "kind": "point",
+      "character": false,
+      "headline": [
+        {
+          "text": "THE PHONE WENT"
+        },
+        {
+          "text": "IN THE CUP HOLDER",
+          "accent": true
+        }
+      ],
+      "scene": "A phone sits face up in a truck cup holder, screen lit, beside a takeaway coffee. Three faint Scaile blue arcs curve toward it from beyond the windscreen."
+    },
+    {
+      "kind": "point",
+      "character": true,
+      "headline": [
+        {
+          "text": "IT GOT PICKED UP"
+        },
+        {
+          "text": "ANYWAY",
+          "accent": true
+        }
+      ],
+      "scene": "The ScaileAI field technician wears a slim headset and holds a phone to the side of its head, standing in a garage, one Scaile blue arc now connecting cleanly into the handset."
+    },
+    {
+      "kind": "cta",
+      "character": false,
+      "headline": [
+        {
+          "text": "THE JOB WAS THERE"
+        },
+        {
+          "text": "WHEN YOU PARKED",
+          "accent": true
+        }
+      ],
+      "scene": "A truck pulls onto a driveway, and through the windscreen a white calendar grid is visible on the garage wall ahead with one fresh solid Scaile blue block in it."
+    }
+  ],
+  "caption": "You were between jobs. Twenty five minutes on the road with a coffee going cold in the holder.\n\nThe phone rang somewhere around the third set of lights. You are not answering that, and you should not.\n\nMost contractors lose that call entirely. It rings out, the caller works down the list, and there is no record it ever happened.\n\nThere is no version of this where you answer while driving. The only question is whether anything answers instead.\n\nComment DISPATCH and I will send the build plan for the one we use.",
+  "hashtags": [
+    "#contractors",
+    "#homeservices",
+    "#hvac",
+    "#plumbing",
+    "#scaileai"
+  ]
+}

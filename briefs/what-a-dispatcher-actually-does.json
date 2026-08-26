@@ -1,0 +1,75 @@
+{
+  "slug": "what-a-dispatcher-actually-does",
+  "type": "reel",
+  "pillar": "booking",
+  "tone": "contractor-truth",
+  "footerCta": "FOLLOW @SCAILEAI",
+  "counter": false,
+  "topic": "Saturday lighter post. Four beats showing what answering actually involves.",
+  "slides": [
+    {
+      "kind": "hook",
+      "character": false,
+      "headline": [
+        {
+          "text": "ANSWERING"
+        },
+        {
+          "text": "IS THE EASY PART",
+          "accent": true
+        }
+      ],
+      "scene": "A phone rings on a cluttered workbench beside a coiled extension lead and a pair of scuffed gloves, screen lit, in a working garage."
+    },
+    {
+      "kind": "point",
+      "character": false,
+      "headline": [
+        {
+          "text": "THEY WANT"
+        },
+        {
+          "text": "A DAY AND A TIME",
+          "accent": true
+        }
+      ],
+      "scene": "A homeowner hand holds a phone up in a kitchen doorway, the screen showing a plain pale blue panel with no readable content, a dishwasher pulled out from the cabinets behind."
+    },
+    {
+      "kind": "point",
+      "character": true,
+      "headline": [
+        {
+          "text": "SOMEONE HAS TO"
+        },
+        {
+          "text": "ASK THE QUESTIONS",
+          "accent": true
+        }
+      ],
+      "scene": "The ScaileAI field technician wears a slim headset and holds a white clipboard marked with three thick Scaile blue rules, standing in a garage beside an open service van."
+    },
+    {
+      "kind": "cta",
+      "character": true,
+      "headline": [
+        {
+          "text": "THEN PUT IT"
+        },
+        {
+          "text": "ON THE CALENDAR",
+          "accent": true
+        }
+      ],
+      "scene": "The ScaileAI field technician presses a solid Scaile blue block firmly into an empty slot on a large white calendar grid mounted on a garage wall."
+    }
+  ],
+  "caption": "Picking up the phone is the easy part.\n\nWhat the caller actually wants is a day and a time. Getting there means asking where they are, what has failed, whether it is an emergency, and whether you cover that area at all.\n\nThen somebody has to write it down, put it on the calendar, and make sure it is still there tomorrow.\n\nThat is four or five steps, every call, while you are holding a wrench.\n\nIt is not complicated work. It is just work that has to happen at the exact moment you are least able to do it.\n\nFollow along if you want more of this.",
+  "hashtags": [
+    "#contractors",
+    "#homeservices",
+    "#plumbing",
+    "#hvac",
+    "#scaileai"
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "slug": "what-happens-in-ninety-seconds",
+  "type": "carousel",
+  "pillar": "quoting",
+  "tone": "authority",
+  "footerCta": "BOOK A 20-MINUTE DEMO",
+  "topic": "The system explained. Lead to booked, step by step.",
+  "slides": [
+    {
+      "kind": "hook",
+      "character": true,
+      "headline": [
+        {
+          "text": "WHAT HAPPENS"
+        },
+        {
+          "text": "IN NINETY SECONDS",
+          "accent": true
+        }
+      ],
+      "subtitle": "(from enquiry to booked job)",
+      "scene": "The ScaileAI field technician stands beside a large white stopwatch resting upright on a workbench, a single Scaile blue mark glowing on its face."
+    },
+    {
+      "kind": "point",
+      "character": false,
+      "headline": [
+        {
+          "text": "SECOND ONE"
+        },
+        {
+          "text": "IT ANSWERS",
+          "accent": true
+        }
+      ],
+      "scene": "A phone on a garage bench with a single Scaile blue arc landing cleanly into it from above.",
+      "annotation": "any channel, any hour",
+      "bullets": [
+        "a text, a form, a missed call, a chat",
+        "answered before it can go cold",
+        "nothing waits for office hours"
+      ]
+    },
+    {
+      "kind": "point",
+      "character": false,
+      "headline": [
+        {
+          "text": "IT ASKS WHAT"
+        },
+        {
+          "text": "YOU WOULD ASK",
+          "accent": true
+        }
+      ],
+      "scene": "A white clipboard propped on a bench with three thick Scaile blue rules on it, beside a matte navy two way radio.",
+      "annotation": "scope, size, where they are",
+      "bullets": [
+        "the three things that set the price",
+        "no interrogation, a conversation",
+        "anything unusual goes to a human"
+      ]
+    },
+    {
+      "kind": "point",
+      "character": false,
+      "headline": [
+        {
+          "text": "THE PRICE GOES"
+        },
+        {
+          "text": "IN THE CHAT",
+          "accent": true
+        }
+      ],
+      "scene": "A phone lying on a kitchen counter with a solid Scaile blue rectangle filling the middle of its screen, no readable content, a homeowner hand resting beside it.",
+      "annotation": "a number, not a callback",
+      "bullets": [
+        "pricing rules you wrote, applied every time",
+        "no pdf and no site visit first",
+        "floors that keep the job profitable"
+      ]
+    },
+    {
+      "kind": "point",
+      "character": true,
+      "headline": [
+        {
+          "text": "THE JOB LANDS"
+        },
+        {
+          "text": "ON THE CALENDAR",
+          "accent": true
+        }
+      ],
+      "scene": "The ScaileAI field technician presses a solid Scaile blue block into an empty slot on a large white calendar grid on a garage wall.",
+      "annotation": "while they are still holding the phone",
+      "bullets": [
+        "booked at the moment they decide",
+        "confirmations and reminders go by themselves",
+        "it syncs to the diary you already use"
+      ]
+    },
+    {
+      "kind": "point",
+      "character": false,
+      "headline": [
+        {
+          "text": "YOU FIND OUT"
+        },
+        {
+          "text": "WHEN YOU LOOK UP",
+          "accent": true
+        }
+      ],
+      "scene": "A contractor in work clothes stands in an attic space beside a serviced unit, wiping hands on a rag, a phone face down on a joist beside him.",
+      "annotation": "none of it interrupted the job you were on",
+      "bullets": [
+        "no calls taken mid job",
+        "no evening spent returning messages",
+        "the day was planned before you started"
+      ]
+    },
+    {
+      "kind": "cta",
+      "character": true,
+      "headline": [
+        {
+          "text": "SEE IT ON"
+        },
+        {
+          "text": "YOUR BUSINESS",
+          "accent": true
+        }
+      ],
+      "scene": "The ScaileAI field technician stands beside a large white door standing open in a garage wall, a band of Scaile blue light falling through it across the floor.",
+      "ctaWord": "DISPATCH",
+      "ctaPromise": "comment it and I will send the build plan"
+    }
+  ],
+  "caption": "Ninety seconds, start to finish. Here is what actually happens in them.\n\nThe enquiry arrives. A text, a web form, a missed call, a message on your Google listing. It gets answered immediately, whatever time it is.\n\nIt asks the three things that decide the price. What the job is, roughly how big, and where they are. Not an interrogation, a conversation, and anything unusual gets handed to a person.\n\nThe price goes into the same thread they are already reading. No attachment, no callback, no waiting for a site visit on something that does not need one. The rules behind that number are yours, including the floors that keep the work profitable.\n\nThen it books, while they are still holding the phone and still sure. Confirmation and reminders go out on their own.\n\nAnd you find out about all of it when you next look up from the job you were on.\n\nIf you want to see how this would run on your own pricing, book a twenty minute walkthrough at scaileai.com.",
+  "hashtags": [
+    "#contractors",
+    "#homeservices",
+    "#hvac",
+    "#plumbing",
+    "#roofing",
+    "#scaileai"
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "slug": "quote-sitting-in-an-inbox",
+  "type": "carousel",
+  "pillar": "quoting",
+  "tone": "challenger",
+  "footerCta": "COMMENT SPEED FOR THE BREAKDOWN",
+  "topic": "The quote you sent that nobody chased. Teaching the follow-up gap.",
+  "slides": [
+    {
+      "kind": "hook",
+      "character": false,
+      "headline": [
+        {
+          "text": "YOU SENT THE QUOTE"
+        },
+        {
+          "text": "THEN WHAT",
+          "accent": true
+        }
+      ],
+      "subtitle": "(be honest about the answer)",
+      "scene": "A single white printed estimate sheet lies face up on a work truck dashboard in daylight, one corner curled, a set of van keys resting on top of it. Nothing else on the dash."
+    },
+    {
+      "kind": "point",
+      "character": false,
+      "headline": [
+        {
+          "text": "MOST QUOTES DIE"
+        },
+        {
+          "text": "OF SILENCE",
+          "accent": true
+        }
+      ],
+      "scene": "Five identical white estimate sheets stand upright in a wire rack on a workbench. Four are dulled and dusty; the nearest one is crisp and clean.",
+      "annotation": "nobody said no, nobody said anything",
+      "bullets": [
+        "the customer did not pick someone else",
+        "they simply stopped thinking about it",
+        "one nudge would have restarted it"
+      ]
+    },
+    {
+      "kind": "point",
+      "character": true,
+      "headline": [
+        {
+          "text": "THE SECOND TOUCH"
+        },
+        {
+          "text": "DOES THE WORK",
+          "accent": true
+        }
+      ],
+      "scene": "The ScaileAI field technician pushes a single solid Scaile blue message bubble forward along a thin blue line toward a small white house model on a workbench, two dim grey bubbles trailing behind it.",
+      "annotation": "sent while you were on a roof",
+      "bullets": [
+        "a short check in beats a long pitch",
+        "ask if anything changed, not if they decided",
+        "send it before the quote goes cold"
+      ]
+    },
+    {
+      "kind": "point",
+      "character": false,
+      "headline": [
+        {
+          "text": "THREE DAYS"
+        },
+        {
+          "text": "IS NOT A PLAN",
+          "accent": true
+        }
+      ],
+      "scene": "A paper wall calendar pinned to a garage wall, three consecutive days marked with small solid Scaile blue squares and the rest of the month left blank.",
+      "annotation": "a cadence, not a reminder you will ignore",
+      "bullets": [
+        "a real sequence runs for weeks",
+        "it stops the moment they reply",
+        "you never touch it once it is set"
+      ]
+    },
+    {
+      "kind": "point",
+      "character": true,
+      "headline": [
+        {
+          "text": "STOP QUOTING"
+        },
+        {
+          "text": "FROM MEMORY",
+          "accent": true
+        }
+      ],
+      "scene": "The ScaileAI field technician holds up a white tablet showing three thick Scaile blue horizontal bands of different lengths, standing beside a matte navy toolbox on a bench.",
+      "annotation": "if it lives in your head it stops when you do",
+      "bullets": [
+        "write the pricing rules down once",
+        "let the system apply them every time",
+        "you approve the edges, not every job"
+      ]
+    },
+    {
+      "kind": "point",
+      "character": false,
+      "headline": [
+        {
+          "text": "THE JOB YOU LOST"
+        },
+        {
+          "text": "WAS ALREADY YOURS",
+          "accent": true
+        }
+      ],
+      "scene": "Two identical white estimate sheets lie side by side on a kitchen counter, one crisp and one creased and faded, a homeowner coffee mug set down on the crisp one.",
+      "annotation": "they had your number and your price",
+      "bullets": [
+        "you did the site visit and the pricing",
+        "you just stopped talking after the send",
+        "that is the cheapest gap to close"
+      ]
+    },
+    {
+      "kind": "cta",
+      "character": true,
+      "headline": [
+        {
+          "text": "WANT THE"
+        },
+        {
+          "text": "BREAKDOWN",
+          "accent": true
+        }
+      ],
+      "scene": "The ScaileAI field technician stands beside a large white envelope propped upright on a workbench, one thick Scaile blue band across its front, one hand raised in a still wave.",
+      "ctaWord": "SPEED",
+      "ctaPromise": "comment it and I will send the breakdown"
+    }
+  ],
+  "caption": "You did the site visit. You worked out the price. You sent the quote.\n\nThen what.\n\nFor most contractors the honest answer is nothing. The quote goes out and every move after that belongs to the customer, who is busy, who has three other things happening, and who never actually decided against you.\n\nThat is the part worth sitting with. Most quotes do not lose to a competitor. They lose to silence.\n\nOne follow up three days later, asking whether anything has changed rather than whether they have decided, restarts more jobs than any discount will.\n\nThe reason it does not happen is not laziness. It is that you were under a sink when the reminder would have been useful, and by the evening it was gone.\n\nI wrote up how the whole sequence works, from first response through quoting to follow up. Comment SPEED and I will send it over.",
+  "hashtags": [
+    "#contractors",
+    "#homeservices",
+    "#hvac",
+    "#plumbing",
+    "#roofing",
+    "#scaileai"
+  ]
+}

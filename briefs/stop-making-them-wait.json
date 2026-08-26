@@ -1,0 +1,34 @@
+{
+  "slug": "stop-making-them-wait",
+  "type": "image",
+  "pillar": "quoting",
+  "tone": "challenger",
+  "footerCta": "COMMENT SPEED FOR THE BREAKDOWN",
+  "topic": "The quote gap. Responding fast is not the same as quoting fast.",
+  "slides": [
+    {
+      "kind": "hook",
+      "character": false,
+      "headline": [
+        {
+          "text": "STOP MAKING PEOPLE"
+        },
+        {
+          "text": "WAIT FOR A PRICE",
+          "accent": true
+        }
+      ],
+      "subtitle": "(responding fast is not the same thing)",
+      "scene": "A kitchen table with two envelopes on it. The near envelope is open with a clean white sheet half drawn out, a thin Scaile blue band across it. The far envelope is still sealed and slightly dusty. A homeowner mug sits beside the open one."
+    }
+  ],
+  "caption": "Everybody is trying to answer faster. Almost nobody is trying to price faster.\n\nA two minute reply that ends in let me get back to you with a number has not won anything. It has started a second wait, and the customer is still standing in their kitchen not knowing what this costs.\n\nMeanwhile somebody else sends an actual figure.\n\nThat is the whole race, and it is not usually close. The first real number in front of a homeowner does most of the work, because it turns a vague worry into a decision they can actually make.\n\nNot every job can be priced without seeing it. Plenty can. Most contractors have never sorted their work into which is which, so everything defaults to a site visit and a three day wait.\n\nStart there. Which of the jobs you did last month could have had a real price inside ten minutes.\n\nComment SPEED and I will send you the full breakdown.",
+  "hashtags": [
+    "#contractors",
+    "#homeservices",
+    "#hvac",
+    "#plumbing",
+    "#estimating",
+    "#scaileai"
+  ]
+}
