@@ -1,0 +1,15 @@
+This is the failure nobody catches, because it does not look like one.
+
+The phone gets answered. The conversation is friendly and competent. The caller hangs up satisfied, having been told somebody will be out Thursday.
+
+And nothing reaches the calendar. No contact record, no appointment, no trace.
+
+You find out three weeks later when you notice the phone rang far more often than the number of jobs you ran. By then you cannot tell which calls went missing or who they were.
+
+The reason it happens is that talking and doing are two different jobs. A system can be very good at sounding human and still never complete the underlying action, and the call quality gives you no clue anything went wrong.
+
+When we build a dispatcher, most of the work is not the conversation. It is making sure the booking and the contact record actually happen, and proving it on every path, including the ones that do not end in an appointment.
+
+The full build plan, including the failures that took fifty iterations to find, is free. Comment DISPATCH and I will send it.
+
+#contractors #homeservices #hvac #dispatch #scaileai

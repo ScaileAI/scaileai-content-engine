@@ -15,6 +15,63 @@
       "slides": 1,
       "note": "Phase 1 proof. Must publish with nobody present.",
       "status": "queued"
+    },
+    {
+      "id": "2026-08-27-pm",
+      "publishAt": "2026-08-27T16:40",
+      "slug": "quote-sitting-in-an-inbox",
+      "type": "carousel",
+      "slides": 7,
+      "status": "queued"
+    },
+    {
+      "id": "2026-08-28-am",
+      "publishAt": "2026-08-28T06:50",
+      "slug": "database-is-not-dead",
+      "type": "image",
+      "status": "queued"
+    },
+    {
+      "id": "2026-08-28-pm",
+      "publishAt": "2026-08-28T16:40",
+      "slug": "answered-is-not-booked",
+      "type": "image",
+      "status": "queued"
+    },
+    {
+      "id": "2026-08-29-sat",
+      "publishAt": "2026-08-29T10:10",
+      "slug": "what-a-dispatcher-actually-does",
+      "type": "reel",
+      "status": "queued"
+    },
+    {
+      "id": "2026-08-31-am",
+      "publishAt": "2026-08-31T06:50",
+      "slug": "you-dont-need-more-leads",
+      "type": "image",
+      "status": "queued"
+    },
+    {
+      "id": "2026-09-01-am",
+      "publishAt": "2026-09-01T06:50",
+      "slug": "while-you-were-driving",
+      "type": "reel",
+      "status": "queued"
+    },
+    {
+      "id": "2026-09-01-pm",
+      "publishAt": "2026-09-01T16:40",
+      "slug": "ads-without-follow-up",
+      "type": "image",
+      "status": "queued"
+    },
+    {
+      "id": "2026-09-02-am",
+      "publishAt": "2026-09-02T06:50",
+      "slug": "stop-making-them-wait",
+      "type": "image",
+      "status": "queued"
     }
   ]
 }
