@@ -6,7 +6,8 @@
  *   node engine/run-publisher.mjs --dry-run  report what it would do, publish nothing
  *
  * It reads engine/queue.json, works out the current local time in the queue's
- * timezone, and publishes any post whose slot has arrived. It does not render
+ * timezone, and publishes the oldest post whose slot has arrived, however long
+ * ago that was. It does not render
  * images, write captions or call any paid service: everything it publishes was
  * made and checked in advance and is already hosted. That is what makes running
  * it unattended defensible.
@@ -32,10 +33,23 @@ const dryRun = process.argv.includes('--dry-run');
 const IG_GRAPH = 'https://graph.instagram.com/v25.0';
 const FB_GRAPH = 'https://graph.facebook.com/v25.0';
 
-// How late a post may still go out. If Actions was delayed or down we would
-// rather skip a stale slot than publish a "good morning" post in the afternoon.
-// Three hours: a 06:50 slot can still publish up to 09:50.
-const GRACE_MINUTES = 180;
+// How late a post may still go out.
+//
+// This used to be three hours, and the filter below only looked at posts due
+// today. Between them, a missed slot was dropped permanently: GitHub Actions
+// throttles hourly schedules hard (observed: five runs in two days, not fifty),
+// so slots were missed routinely and the posts behind them disappeared from the
+// queue for good.
+//
+// The trade now runs the other way. A late post beats no post, so anything still
+// queued goes out at the next run whatever hour that turns out to be. Three days
+// is the cutoff, and it only bites if Actions is dead rather than merely late —
+// at which point the content is stale enough to skip deliberately and loudly.
+const MAX_LATE_DAYS = 3;
+
+// At most one post per run. Clearing a backlog all at once would fire the
+// morning and afternoon posts within seconds of each other.
+const MAX_PER_RUN = 1;
 
 // ── helpers ───────────────────────────────────────────────────────────────────
 
@@ -60,11 +74,6 @@ function localNow(timeZone) {
     label: `${p.year}-${p.month}-${p.day} ${p.hour}:${p.minute}`,
   };
 }
-
-const toMinutes = (hhmm) => {
-  const [h, m] = hhmm.split(':').map(Number);
-  return h * 60 + m;
-};
 
 async function detectHost(token) {
   for (const host of [IG_GRAPH, FB_GRAPH]) {
@@ -129,13 +138,29 @@ const now = localNow(tz);
 
 log(`local time in ${tz}: ${now.label}`);
 
-const due = (queue.posts || []).filter((p) => {
-  if (p.status !== 'queued') return false;
-  const [d, t] = String(p.publishAt).split('T');
-  if (d !== now.date) return false;
-  const mins = toMinutes(t);
-  return now.minutes >= mins && now.minutes - mins <= GRACE_MINUTES;
-});
+// Both stamps describe local wall-clock time in the same zone, so parsing them
+// as though they were UTC gives the correct difference between them. Neither is
+// an actual instant and we never treat one as such.
+const asStamp = (v) => Date.parse(String(v).slice(0, 16) + ':00Z');
+const nowStamp = asStamp(now.label.replace(' ', 'T'));
+
+const arrived = (queue.posts || [])
+  .filter((p) => p.status === 'queued' && asStamp(p.publishAt) <= nowStamp)
+  .sort((a, b) => String(a.publishAt).localeCompare(String(b.publishAt)));
+
+// Past the cutoff a post is retired here rather than published stale.
+const tooLate = arrived.filter((p) => nowStamp - asStamp(p.publishAt) > MAX_LATE_DAYS * 86400000);
+for (const p of tooLate) {
+  fail(`${p.slug}: was due ${p.publishAt}, over ${MAX_LATE_DAYS} days ago. Not publishing it.`);
+  p.status = 'skipped';
+  p.error = `missed by more than ${MAX_LATE_DAYS} days`;
+}
+
+const ready = arrived.filter((p) => !tooLate.includes(p));
+const due = ready.slice(0, MAX_PER_RUN);
+const waiting = ready.slice(MAX_PER_RUN);
+
+if (tooLate.length && !dryRun) fs.writeFileSync(QUEUE, JSON.stringify(queue, null, 2) + String.fromCharCode(10));
 
 if (due.length === 0) {
   const next = (queue.posts || []).filter((p) => p.status === 'queued').sort((a, b) => String(a.publishAt).localeCompare(String(b.publishAt)))[0];
@@ -202,7 +227,8 @@ async function healthCheck(next) {
   }
 }
 
-log(`${due.length} post(s) due\n`);
+log(`${due.length} post(s) due` + (waiting.length ? `, ${waiting.length} held for the next run: ${waiting.map((p) => p.slug).join(', ')}` : ''));
+log('');
 
 // ── credentials ───────────────────────────────────────────────────────────────
 
