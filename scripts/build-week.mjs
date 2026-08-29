@@ -54,6 +54,15 @@ for (const [i, slug] of slugs.entries()) {
     process.stdout.write('    rendering... ');
     if (!run('node', [SKILL, briefPath], 'render', slug)) { failed.push(slug); continue; }
     rendered += n;
+
+    // add-logo.ps1 always composites from raw/, and only fills raw/ the first
+    // time so that re-stamping is idempotent. That makes a re-render invisible:
+    // the fresh image is written, then overwritten by the logo step compositing
+    // the ORIGINAL again. A post edited to remove invented signage came back
+    // with the signage still on it and reported success. If we just rendered,
+    // raw/ is stale by definition, so drop it and let add-logo refill it.
+    fs.rmSync(path.join(projectDir, postDir, 'raw'), { recursive: true, force: true });
+
     console.log('done');
   }
 

@@ -19,19 +19,20 @@ import { projectDir } from './ig-api.mjs';
 const QUEUE = path.join(projectDir, 'engine', 'queue.json');
 const dryRun = process.argv.includes('--dry-run');
 
-// The week. Dates are local to the queue's timezone.
+// The AUTOMATE campaign: five posts driving the "How to Automate Your Instagram"
+// guide. Held back a week deliberately so the feed was not five posts in a row
+// about its own Instagram. Thursday and Friday carry the push; the Monday post
+// closes it by widening from social to the rest of the front office, and is the
+// only one of the five whose CTA is the demo rather than the guide.
+//
+// Earlier weeks are not repeated here. queue.json is the record of what is
+// scheduled; this list is only what is being added.
 const PLAN = [
-  ['2026-08-27', 'PM', 'quote-sitting-in-an-inbox'],
-  ['2026-08-28', 'AM', 'database-is-not-dead'],
-  ['2026-08-28', 'PM', 'answered-is-not-booked'],
-  ['2026-08-29', 'SAT', 'what-a-dispatcher-actually-does'],
-  ['2026-08-31', 'AM', 'you-dont-need-more-leads'],
-  ['2026-08-31', 'PM', 'the-second-shift'],
-  ['2026-09-01', 'AM', 'while-you-were-driving'],
-  ['2026-09-01', 'PM', 'ads-without-follow-up'],
-  ['2026-09-02', 'AM', 'stop-making-them-wait'],
-  ['2026-09-02', 'PM', 'what-happens-in-ninety-seconds'],
-  ['2026-09-05', 'SAT', 'you-are-not-the-bottleneck'],
+  ['2026-09-03', 'AM', 'not-posted-since-march'],
+  ['2026-09-03', 'PM', 'this-post-posted-itself'],
+  ['2026-09-04', 'AM', 'how-this-account-posts-itself'],
+  ['2026-09-04', 'PM', 'competitor-posts-every-day'],
+  ['2026-09-07', 'AM', 'marketing-that-runs-without-you'],
 ];
 
 const queue = JSON.parse(fs.readFileSync(QUEUE, 'utf8'));

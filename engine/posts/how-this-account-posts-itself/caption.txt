@@ -1,0 +1,17 @@
+This account posts twice a day. Nobody opens the app. Here is the whole setup.
+
+1. An AI does the building. You describe what you want in plain English. You never write any code.
+
+2. It designs every post. Words and picture together, in your colours, with your logo. You look through a week at a time and kill anything you do not like.
+
+3. The pictures need a home. Instagram will not accept a file, it wants a web address and goes and fetches the image itself. A free host handles that. You drag one folder, once.
+
+4. Instagram needs one key. This is the fiddly part. Your account has to be a business account, one permission is switched off by default, and the key quietly stops working after about sixty days.
+
+5. A free timer publishes. It runs in the cloud rather than on your laptop, wakes every hour, and posts anything due.
+
+6. Then you tell it your topics and leave it alone.
+
+The full write up is free and includes everything that went wrong when we did it. Comment AUTOMATE and I will send it over.
+
+#contractors #homeservices #marketing #hvac #roofing #scaileai

@@ -48,9 +48,18 @@ $logo = [System.Drawing.Image]::FromFile($logoPath)
 $count = 0
 
 foreach ($f in Get-ChildItem $src -Filter "slide-*.png" | Sort-Object Name) {
-  # Keep a pristine copy the first time, and always composite from it.
+  # Keep a pristine copy the first time, and always composite from it. That is
+  # what makes re-stamping safe, and it is also a trap: if the slide has been
+  # re-rendered since, compositing from raw/ silently throws the new image away.
+  # Refreshing raw/ here cannot be right either, because after a normal run the
+  # slide is always newer than raw. So warn loudly and let the caller decide.
+  # build-week.mjs deletes raw/ after rendering, which is the supported path.
   $original = Join-Path $raw $f.Name
-  if (-not (Test-Path $original)) { Copy-Item $f.FullName $original }
+  if (-not (Test-Path $original)) {
+    Copy-Item $f.FullName $original
+  } elseif ((Get-Item $f.FullName).LastWriteTime -gt (Get-Item $original).LastWriteTime.AddMinutes(1)) {
+    Write-Warning "$($f.Name) is newer than raw/$($f.Name). Compositing from raw/ and DISCARDING the newer image. If you just re-rendered, delete raw/ and run this again."
+  }
 
   $img = [System.Drawing.Image]::FromFile($original)
   $canvas = New-Object System.Drawing.Bitmap $img.Width, $img.Height
