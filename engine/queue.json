@@ -4,7 +4,8 @@
   "slots": {
     "morning": "06:50",
     "afternoon": "16:40",
-    "saturday": "10:10"
+    "weekendMorning": "10:10",
+    "weekendAfternoon": "17:40"
   },
   "posts": [
     {

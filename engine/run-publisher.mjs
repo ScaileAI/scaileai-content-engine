@@ -289,7 +289,10 @@ for (const post of due) {
     let mediaId;
 
     if (type === 'reel') {
-      const { id } = await apiPost(host, `${IG_USER}/media`, { media_type: 'REELS', video_url: urls[0], caption }, TOKEN);
+      // share_to_feed puts the reel in the profile grid as well as the Reels tab.
+      // Without it a reel publishes successfully and is invisible to anyone
+      // looking at the profile, which reads as "the post never went out".
+      const { id } = await apiPost(host, `${IG_USER}/media`, { media_type: 'REELS', video_url: urls[0], caption, share_to_feed: true }, TOKEN);
       await waitForContainer(host, TOKEN, id, 'reel', 90);
       ({ id: mediaId } = await apiPost(host, `${IG_USER}/media_publish`, { creation_id: id }, TOKEN));
     } else if (urls.length === 1) {

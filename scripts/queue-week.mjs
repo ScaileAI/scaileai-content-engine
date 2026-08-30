@@ -36,7 +36,17 @@ const PLAN = [
 ];
 
 const queue = JSON.parse(fs.readFileSync(QUEUE, 'utf8'));
-const TIMES = { AM: queue.slots.morning, PM: queue.slots.afternoon, SAT: queue.slots.saturday };
+// Two posts a day, seven days a week. Weekends run later: nobody is reading a
+// contractor's Instagram at 06:50 on a Sunday. The time is derived from the date
+// rather than named in the plan, so a weekend entry cannot accidentally be given
+// a weekday time.
+function slotTime(date, half) {
+  const dow = new Date(date + 'T12:00:00Z').getUTCDay();
+  const weekend = dow === 0 || dow === 6;
+  if (half === 'AM') return weekend ? queue.slots.weekendMorning : queue.slots.morning;
+  if (half === 'PM') return weekend ? queue.slots.weekendAfternoon : queue.slots.afternoon;
+  throw new Error('slot must be AM or PM, got ' + half);
+}
 
 const taken = new Set(queue.posts.map((p) => p.publishAt));
 const already = new Set(queue.posts.map((p) => p.slug));
@@ -45,7 +55,7 @@ const added = [];
 const skipped = [];
 
 for (const [date, slot, slug] of PLAN) {
-  const publishAt = `${date}T${TIMES[slot]}`;
+  const publishAt = `${date}T${slotTime(date, slot)}`;
   const briefPath = path.join(projectDir, 'briefs', `${slug}.json`);
 
   if (!fs.existsSync(briefPath)) { skipped.push(`${slug}: no brief`); continue; }
