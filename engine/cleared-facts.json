@@ -72,6 +72,10 @@
     {
       "pattern": "11pm",
       "source": "narrative time of day, not a claim"
+    },
+    {
+      "pattern": "sixty days",
+      "source": "Instagram long-lived token lifetime, verified against the live API 2026-08-26"
     }
   ],
   "footerCtas": [

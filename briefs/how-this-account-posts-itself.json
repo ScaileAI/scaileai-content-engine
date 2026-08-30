@@ -1,0 +1,150 @@
+{
+  "slug": "how-this-account-posts-itself",
+  "type": "carousel",
+  "pillar": "visibility",
+  "tone": "authority",
+  "footerCta": "COMMENT AUTOMATE FOR THE GUIDE",
+  "topic": "The six steps, condensed. Teaches enough to establish authority.",
+  "slides": [
+    {
+      "kind": "hook",
+      "character": true,
+      "headline": [
+        {
+          "text": "THIS ACCOUNT"
+        },
+        {
+          "text": "POSTS ITSELF",
+          "accent": true
+        }
+      ],
+      "subtitle": "(here is the whole setup)",
+      "scene": "The ScaileAI field technician stands beside a large white phone shaped panel propped upright on a workbench, a single solid Scaile blue rectangle glowing on its face."
+    },
+    {
+      "kind": "point",
+      "character": false,
+      "headline": [
+        {
+          "text": "AN AI DOES"
+        },
+        {
+          "text": "THE BUILDING",
+          "accent": true
+        }
+      ],
+      "scene": "A laptop open on a garage workbench beside a mug and a tape measure, its screen showing a plain pale blue panel with no readable content.",
+      "annotation": "you describe it, it builds it",
+      "bullets": [
+        "you talk to it in plain english",
+        "you never write any code",
+        "it shows you everything it makes"
+      ]
+    },
+    {
+      "kind": "point",
+      "character": true,
+      "headline": [
+        {
+          "text": "IT DESIGNS"
+        },
+        {
+          "text": "EVERY POST",
+          "accent": true
+        }
+      ],
+      "scene": "The ScaileAI field technician holds up a white square panel with three thick Scaile blue bands arranged like a headline and two lines of text below.",
+      "annotation": "words and picture in one go",
+      "bullets": [
+        "it writes the words and makes the image",
+        "your colour and logo every time",
+        "you check a week at a time"
+      ]
+    },
+    {
+      "kind": "point",
+      "character": false,
+      "headline": [
+        {
+          "text": "THE PICTURES"
+        },
+        {
+          "text": "NEED A HOME",
+          "accent": true
+        }
+      ],
+      "scene": "A plain white cloud shaped panel mounted on a garage wall with three small Scaile blue squares arranged in a row on its face.",
+      "annotation": "instagram fetches them, you cannot hand them over",
+      "bullets": [
+        "a free host holds the images",
+        "you drag one folder, once",
+        "no card, no server, nothing to maintain"
+      ]
+    },
+    {
+      "kind": "point",
+      "character": false,
+      "headline": [
+        {
+          "text": "ONE KEY"
+        },
+        {
+          "text": "FROM INSTAGRAM",
+          "accent": true
+        }
+      ],
+      "scene": "A single brass key lies on a clean workbench beside a phone, a thin Scaile blue line running from the key to the phone.",
+      "annotation": "the fiddliest part, and the only slow one",
+      "bullets": [
+        "your account must be a business account",
+        "one permission is off by default",
+        "the key stops working after about sixty days"
+      ]
+    },
+    {
+      "kind": "point",
+      "character": true,
+      "headline": [
+        {
+          "text": "A FREE TIMER"
+        },
+        {
+          "text": "PRESSES PUBLISH",
+          "accent": true
+        }
+      ],
+      "scene": "The ScaileAI field technician stands beside a large white wall clock with a single Scaile blue hand, in a quiet garage with the roller door closed.",
+      "annotation": "in the cloud, not on your laptop",
+      "bullets": [
+        "it wakes every hour and checks",
+        "your laptop can be shut",
+        "most hours it finds nothing and sleeps"
+      ]
+    },
+    {
+      "kind": "cta",
+      "character": true,
+      "headline": [
+        {
+          "text": "WANT THE"
+        },
+        {
+          "text": "WHOLE THING",
+          "accent": true
+        }
+      ],
+      "scene": "The ScaileAI field technician stands beside a large white envelope propped upright on a workbench, one thick Scaile blue band across it, one hand raised in a still wave.",
+      "ctaWord": "AUTOMATE",
+      "ctaPromise": "comment it and I will send the guide"
+    }
+  ],
+  "caption": "This account posts twice a day. Nobody opens the app. Here is the whole setup.\n\n1. An AI does the building. You describe what you want in plain English. You never write any code.\n\n2. It designs every post. Words and picture together, in your colours, with your logo. You look through a week at a time and kill anything you do not like.\n\n3. The pictures need a home. Instagram will not accept a file, it wants a web address and goes and fetches the image itself. A free host handles that. You drag one folder, once.\n\n4. Instagram needs one key. This is the fiddly part. Your account has to be a business account, one permission is switched off by default, and the key quietly stops working after about sixty days.\n\n5. A free timer publishes. It runs in the cloud rather than on your laptop, wakes every hour, and posts anything due.\n\n6. Then you tell it your topics and leave it alone.\n\nThe full write up is free and includes everything that went wrong when we did it. Comment AUTOMATE and I will send it over.",
+  "hashtags": [
+    "#contractors",
+    "#homeservices",
+    "#marketing",
+    "#hvac",
+    "#roofing",
+    "#scaileai"
+  ]
+}

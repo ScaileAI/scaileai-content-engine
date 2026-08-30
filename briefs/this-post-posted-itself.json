@@ -1,0 +1,75 @@
+{
+  "slug": "this-post-posted-itself",
+  "type": "reel",
+  "pillar": "visibility",
+  "tone": "contractor-truth",
+  "footerCta": "COMMENT AUTOMATE FOR THE GUIDE",
+  "counter": false,
+  "topic": "Meta reel. Nobody was involved in this post going out.",
+  "slides": [
+    {
+      "kind": "hook",
+      "character": false,
+      "headline": [
+        {
+          "text": "NOBODY POSTED"
+        },
+        {
+          "text": "THIS",
+          "accent": true
+        }
+      ],
+      "scene": "A dark quiet garage before dawn, roller door closed, tools racked on the wall, a single phone face up on the bench with its screen glowing pale blue."
+    },
+    {
+      "kind": "point",
+      "character": false,
+      "headline": [
+        {
+          "text": "IT WAS WRITTEN"
+        },
+        {
+          "text": "THREE WEEKS AGO",
+          "accent": true
+        }
+      ],
+      "scene": "A stack of plain white cards sits neatly on a workbench, the top one marked with a single thick Scaile blue band, the rest blank."
+    },
+    {
+      "kind": "point",
+      "character": true,
+      "headline": [
+        {
+          "text": "SOMETHING WOKE UP"
+        },
+        {
+          "text": "AND CHECKED",
+          "accent": true
+        }
+      ],
+      "scene": "The ScaileAI field technician stands alone in the dim garage looking at a large white wall clock with one Scaile blue hand, the roller door still closed behind it."
+    },
+    {
+      "kind": "cta",
+      "character": false,
+      "headline": [
+        {
+          "text": "AND YOU WERE"
+        },
+        {
+          "text": "STILL ASLEEP",
+          "accent": true
+        }
+      ],
+      "scene": "The same garage with the roller door now open on early morning light, a work truck visible on the driveway beyond, the phone on the bench now dark."
+    }
+  ],
+  "caption": "Nobody posted this.\n\nIt was written three weeks ago, sat in a list with a date on it, and this morning something in the cloud woke up, saw it was due, checked the picture was really there, and put it out.\n\nI was asleep. Then I was on a job.\n\nThat is the whole point. Not that posting is hard, but that it has to happen at times you cannot be doing it, which is why most contractor accounts stall by about post nine.\n\nThe entire setup is written up and free, including the five things that broke while we built it. Comment AUTOMATE and I will send it over.",
+  "hashtags": [
+    "#contractors",
+    "#homeservices",
+    "#hvac",
+    "#plumbing",
+    "#scaileai"
+  ]
+}
