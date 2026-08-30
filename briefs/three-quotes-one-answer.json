@@ -1,0 +1,110 @@
+{
+  "slug": "three-quotes-one-answer",
+  "type": "carousel",
+  "pillar": "quoting",
+  "tone": "challenger",
+  "footerCta": "COMMENT QUOTE FOR THE GUIDE",
+  "topic": "Homeowners ring three contractors. The order the quotes arrive decides it more often than the numbers on them.",
+  "slides": [
+    {
+      "kind": "hook",
+      "character": true,
+      "headline": [
+        {
+          "text": "THEY CALLED"
+        },
+        {
+          "text": "THREE OF YOU",
+          "accent": true
+        }
+      ],
+      "subtitle": "(price was not what decided it)",
+      "scene": "The ScaileAI field technician stands beside three tall white panels of equal size propped upright in a garage, the leftmost one edged with a glowing Scaile blue line and the other two plain. All vehicles and buildings in shot have COMPLETELY BLANK panels and surfaces with absolutely no writing, no company name, no logo, no lettering, no phone number and no graphics of any kind. No signage anywhere in the scene. There is NO text, no words and no labels anywhere in the image."
+    },
+    {
+      "kind": "point",
+      "character": false,
+      "headline": [
+        {
+          "text": "FIRST QUOTE"
+        },
+        {
+          "text": "SETS THE BAR",
+          "accent": true
+        }
+      ],
+      "scene": "A single sheet of blank white paper on a clean workbench under a bright work light, one thin Scaile blue line running along its top edge. All vehicles and buildings in shot have COMPLETELY BLANK panels and surfaces with absolutely no writing, no company name, no logo, no lettering, no phone number and no graphics of any kind. No signage anywhere in the scene. There is NO text, no words and no labels anywhere in the image.",
+      "annotation": "everything after gets compared to it",
+      "bullets": [
+        "it arrives while they still care",
+        "it frames what normal costs",
+        "the others become the expensive ones"
+      ]
+    },
+    {
+      "kind": "point",
+      "character": false,
+      "headline": [
+        {
+          "text": "THE THIRD ONE"
+        },
+        {
+          "text": "ARRIVES DEAD",
+          "accent": true
+        }
+      ],
+      "scene": "Two blank white sheets of paper lying on a workbench in bright light and a third sheet in shadow at the edge of the bench, half out of frame. All vehicles and buildings in shot have COMPLETELY BLANK panels and surfaces with absolutely no writing, no company name, no logo, no lettering, no phone number and no graphics of any kind. No signage anywhere in the scene. There is NO text, no words and no labels anywhere in the image.",
+      "annotation": "by then they have already decided",
+      "bullets": [
+        "four days is a lifetime to a homeowner",
+        "the quick one already called back",
+        "yours is read, then closed"
+      ]
+    },
+    {
+      "kind": "point",
+      "character": true,
+      "headline": [
+        {
+          "text": "SPEED IS"
+        },
+        {
+          "text": "THE WHOLE GAME",
+          "accent": true
+        }
+      ],
+      "scene": "The ScaileAI field technician holding a single blank white panel upright with both hands, a bright Scaile blue line tracing quickly along its edge. All vehicles and buildings in shot have COMPLETELY BLANK panels and surfaces with absolutely no writing, no company name, no logo, no lettering, no phone number and no graphics of any kind. No signage anywhere in the scene. There is NO text, no words and no labels anywhere in the image.",
+      "annotation": "not the number on the page",
+      "bullets": [
+        "same job, same price, different day",
+        "first credible answer usually wins",
+        "nobody is comparing spreadsheets"
+      ]
+    },
+    {
+      "kind": "cta",
+      "character": true,
+      "headline": [
+        {
+          "text": "WANT THE"
+        },
+        {
+          "text": "FULL BREAKDOWN",
+          "accent": true
+        }
+      ],
+      "scene": "The ScaileAI field technician stands beside a large blank white envelope propped upright on a workbench with one thick Scaile blue band across it, one hand raised in a still wave. All vehicles and buildings in shot have COMPLETELY BLANK panels and surfaces with absolutely no writing, no company name, no logo, no lettering, no phone number and no graphics of any kind. No signage anywhere in the scene. There is NO text, no words and no labels anywhere in the image.",
+      "ctaWord": "QUOTE",
+      "ctaPromise": "comment it and I will send the guide"
+    }
+  ],
+  "caption": "They rang three contractors. You were one of them.\n\nHere is what actually decided it, and it was probably not your price.\n\nThe first quote to land sets the reference point. Everything after it gets measured against that number, and the person who sent it is already the one they are talking to.\n\nThe second one has to be better on something to be worth the hassle of switching.\n\nThe third arrives four days later, after they have made up their mind. It gets opened, glanced at, and closed. That quote was never in the running, no matter what was on it.\n\nSo the question is not whether your pricing is competitive. It is whether you are ever the first one back, on a day when you were already booked solid and quoting was the fourth thing on the list.\n\nComment QUOTE and I will send the breakdown.",
+  "hashtags": [
+    "#contractors",
+    "#homeservices",
+    "#roofing",
+    "#hvac",
+    "#plumbing",
+    "#scaileai"
+  ]
+}

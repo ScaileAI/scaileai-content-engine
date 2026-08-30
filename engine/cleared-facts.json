@@ -96,7 +96,8 @@
   "liveAssets": {
     "DISPATCH": "https://scaileai-guides.netlify.app/dispatch",
     "SPEED": "https://scaileai-guides.netlify.app/speed",
-    "AUTOMATE": "https://scaileai-guides.netlify.app/automate"
+    "AUTOMATE": "https://scaileai-guides.netlify.app/automate",
+    "QUOTE": "https://scaileai-guides.netlify.app/speed"
   },
   "bannedPhrases": [
     "game changer",

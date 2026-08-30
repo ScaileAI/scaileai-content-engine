@@ -1,0 +1,33 @@
+{
+  "slug": "first-cold-snap",
+  "type": "image",
+  "pillar": "response",
+  "tone": "contractor-truth",
+  "footerCta": "COMMENT DISPATCH FOR THE PLAN",
+  "topic": "The first cold night of the season is a demand spike you can predict and still lose.",
+  "slides": [
+    {
+      "kind": "hook",
+      "character": true,
+      "headline": [
+        {
+          "text": "THE FIRST"
+        },
+        {
+          "text": "COLD NIGHT",
+          "accent": true
+        }
+      ],
+      "subtitle": "(everyone calls at once)",
+      "scene": "The ScaileAI field technician standing in an open garage doorway at dusk looking out at a frosted driveway, breath visible in the cold air, a phone in one hand glowing pale blue. All vehicles and buildings in shot have COMPLETELY BLANK panels and surfaces with absolutely no writing, no company name, no logo, no lettering, no phone number and no graphics of any kind. No signage anywhere in the scene. There is NO text, no words and no labels anywhere in the image."
+    }
+  ],
+  "caption": "You know the night. Temperature drops for the first time, every furnace that has been quietly failing since March gives up at once, and the phone does not stop.\n\nThe work is there. It is the one week of the year where demand is not the problem.\n\nWhat you lose that week is everything you cannot pick up. Six people ring while you are under somebody floor. Four of them get through to another name on the list. The other two you ring back on Thursday, by which point they are warm again and no longer interested.\n\nThe frustrating part is that this is the most predictable event in your calendar. It happens every year, roughly when you think it will, and it still costs you the same way every time.\n\nA week you can see coming is a week you can prepare for. Not with more hours. With something that answers while you are already on a job.\n\nComment DISPATCH and I will send the plan.",
+  "hashtags": [
+    "#hvac",
+    "#contractors",
+    "#homeservices",
+    "#heating",
+    "#scaileai"
+  ]
+}

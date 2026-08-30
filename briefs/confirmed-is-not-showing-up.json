@@ -1,0 +1,108 @@
+{
+  "slug": "confirmed-is-not-showing-up",
+  "type": "carousel",
+  "pillar": "booking",
+  "tone": "authority",
+  "footerCta": "SAVE FOR LATER",
+  "topic": "A booked slot is not a kept slot. No-shows are a follow-up problem, not a customer problem.",
+  "slides": [
+    {
+      "kind": "hook",
+      "character": true,
+      "headline": [
+        {
+          "text": "BOOKED IS NOT"
+        },
+        {
+          "text": "THE SAME AS KEPT",
+          "accent": true
+        }
+      ],
+      "subtitle": "(ask anyone with a Tuesday gap)",
+      "scene": "The ScaileAI field technician standing beside a large blank white wall calendar in a garage, one square on it filled with solid Scaile blue and every other square empty. All vehicles and buildings in shot have COMPLETELY BLANK panels and surfaces with absolutely no writing, no company name, no logo, no lettering, no phone number and no graphics of any kind. No signage anywhere in the scene. There is NO text, no words and no labels anywhere in the image."
+    },
+    {
+      "kind": "point",
+      "character": false,
+      "headline": [
+        {
+          "text": "THEY BOOKED"
+        },
+        {
+          "text": "NINE DAYS AGO",
+          "accent": true
+        }
+      ],
+      "scene": "A blank white wall calendar hanging in a quiet garage, one square marked with a thin Scaile blue outline, soft daylight from the side. All vehicles and buildings in shot have COMPLETELY BLANK panels and surfaces with absolutely no writing, no company name, no logo, no lettering, no phone number and no graphics of any kind. No signage anywhere in the scene. There is NO text, no words and no labels anywhere in the image.",
+      "annotation": "a lot happens in nine days",
+      "bullets": [
+        "the leak slowed down on its own",
+        "somebody had a look at it for free",
+        "they forgot entirely"
+      ]
+    },
+    {
+      "kind": "point",
+      "character": false,
+      "headline": [
+        {
+          "text": "THE GAP COSTS"
+        },
+        {
+          "text": "TWICE",
+          "accent": true
+        }
+      ],
+      "scene": "An empty parking space on a residential street in flat midday light, a faint Scaile blue rectangle outlined on the empty tarmac. All vehicles and buildings in shot have COMPLETELY BLANK panels and surfaces with absolutely no writing, no company name, no logo, no lettering, no phone number and no graphics of any kind. No signage anywhere in the scene. There is NO text, no words and no labels anywhere in the image.",
+      "annotation": "the drive out, and the job you turned down",
+      "bullets": [
+        "you held the slot for them",
+        "you said no to somebody else",
+        "you still burned the fuel"
+      ]
+    },
+    {
+      "kind": "point",
+      "character": true,
+      "headline": [
+        {
+          "text": "A REMINDER"
+        },
+        {
+          "text": "IS THE FIX",
+          "accent": true
+        }
+      ],
+      "scene": "The ScaileAI field technician holding a phone at arm length in a garage, a single Scaile blue rectangle glowing on its screen, everything else in the frame plain. All vehicles and buildings in shot have COMPLETELY BLANK panels and surfaces with absolutely no writing, no company name, no logo, no lettering, no phone number and no graphics of any kind. No signage anywhere in the scene. There is NO text, no words and no labels anywhere in the image.",
+      "annotation": "the day before, and the morning of",
+      "bullets": [
+        "it lets them cancel early",
+        "an early cancel is a slot you resell",
+        "silence is what costs you"
+      ]
+    },
+    {
+      "kind": "cta",
+      "character": false,
+      "headline": [
+        {
+          "text": "WORTH KEEPING"
+        },
+        {
+          "text": "THIS ONE",
+          "accent": true
+        }
+      ],
+      "scene": "A blank white index card pinned to a garage pegboard with a single Scaile blue drawing pin, hand tools hanging either side. All vehicles and buildings in shot have COMPLETELY BLANK panels and surfaces with absolutely no writing, no company name, no logo, no lettering, no phone number and no graphics of any kind. No signage anywhere in the scene. There is NO text, no words and no labels anywhere in the image."
+    }
+  ],
+  "caption": "A booked job is not a job. It is a promise from somebody who has not thought about you since.\n\nThey booked nine days ago. In that time the drip slowed down, somebody had a look at it for free, and the urgency that made them call has gone.\n\nSo you drive out and nobody answers the door.\n\nThat gap costs twice. There is the wasted trip, and there is the job you turned down to hold the slot. The second one is bigger and you never see it.\n\nThe fix is not chasing people or taking deposits. It is a reminder the day before and another on the morning, which gives them an easy way to cancel early. An early cancellation is a slot you can resell. Silence on the doorstep is not.\n\nNone of this is complicated. It is admin that has to happen on a specific day, which is exactly the kind of thing that never happens when you are on the tools.\n\nSave this one for the next time you get a Tuesday gap.",
+  "hashtags": [
+    "#contractors",
+    "#homeservices",
+    "#hvac",
+    "#plumbing",
+    "#scheduling",
+    "#scaileai"
+  ]
+}

@@ -19,20 +19,23 @@ import { projectDir } from './ig-api.mjs';
 const QUEUE = path.join(projectDir, 'engine', 'queue.json');
 const dryRun = process.argv.includes('--dry-run');
 
-// The AUTOMATE campaign: five posts driving the "How to Automate Your Instagram"
-// guide. Held back a week deliberately so the feed was not five posts in a row
-// about its own Instagram. Thursday and Friday carry the push; the Monday post
-// closes it by widening from social to the rest of the front office, and is the
-// only one of the five whose CTA is the demo rather than the guide.
+// Week three. Fills the slots opened by going to two a day, seven days a week.
+// Interleaved with the AUTOMATE campaign rather than blocked after it: the
+// campaign owns Thu 3 and Fri 4, this picks up the weekend either side and runs
+// through Wed 9. Pillars rotate response / quoting / follow-up / booking so no
+// two consecutive posts make the same argument.
 //
 // Earlier weeks are not repeated here. queue.json is the record of what is
 // scheduled; this list is only what is being added.
 const PLAN = [
-  ['2026-09-03', 'AM', 'not-posted-since-march'],
-  ['2026-09-03', 'PM', 'this-post-posted-itself'],
-  ['2026-09-04', 'AM', 'how-this-account-posts-itself'],
-  ['2026-09-04', 'PM', 'competitor-posts-every-day'],
-  ['2026-09-07', 'AM', 'marketing-that-runs-without-you'],
+  ['2026-09-05', 'PM', 'weekend-calls-still-count'],
+  ['2026-09-06', 'AM', 'three-quotes-one-answer'],
+  ['2026-09-06', 'PM', 'the-review-you-never-asked-for'],
+  ['2026-09-07', 'PM', 'first-cold-snap'],
+  ['2026-09-08', 'AM', 'four-days-for-an-estimate'],
+  ['2026-09-08', 'PM', 'confirmed-is-not-showing-up'],
+  ['2026-09-09', 'AM', 'the-customer-from-two-winters-ago'],
+  ['2026-09-09', 'PM', 'referrals-are-not-a-strategy'],
 ];
 
 const queue = JSON.parse(fs.readFileSync(QUEUE, 'utf8'));
