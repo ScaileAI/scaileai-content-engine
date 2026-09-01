@@ -97,7 +97,10 @@
       "publishAt": "2026-09-01T16:40",
       "slug": "ads-without-follow-up",
       "type": "image",
-      "status": "queued"
+      "status": "posted",
+      "mediaId": "18351805348170729",
+      "permalink": "https://www.instagram.com/p/Dcww-caFF8A/",
+      "postedAt": "2026-09-01T22:45:23.374Z"
     },
     {
       "id": "2026-09-02-am",
