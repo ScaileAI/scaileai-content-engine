@@ -128,7 +128,10 @@
       "publishAt": "2026-09-03T06:50",
       "slug": "not-posted-since-march",
       "type": "image",
-      "status": "queued"
+      "status": "posted",
+      "mediaId": "18632213242040192",
+      "permalink": "https://www.instagram.com/p/Dc03oRNoPv_/",
+      "postedAt": "2026-09-03T13:00:30.867Z"
     },
     {
       "id": "2026-09-03-pm",
