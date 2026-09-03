@@ -138,7 +138,10 @@
       "publishAt": "2026-09-03T16:40",
       "slug": "this-post-posted-itself",
       "type": "reel",
-      "status": "queued"
+      "status": "posted",
+      "mediaId": "17904369609482623",
+      "permalink": "https://www.instagram.com/reel/Dc16khfCHpo/",
+      "postedAt": "2026-09-03T22:45:46.191Z"
     },
     {
       "id": "2026-09-04-am",
