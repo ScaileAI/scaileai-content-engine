@@ -159,7 +159,10 @@
       "publishAt": "2026-09-04T16:40",
       "slug": "competitor-posts-every-day",
       "type": "image",
-      "status": "queued"
+      "status": "posted",
+      "mediaId": "18102590981204918",
+      "permalink": "https://www.instagram.com/p/Dc4fW_AETef/",
+      "postedAt": "2026-09-04T22:45:23.517Z"
     },
     {
       "id": "2026-09-05-sat",
