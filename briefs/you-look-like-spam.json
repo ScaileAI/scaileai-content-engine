@@ -1,0 +1,33 @@
+{
+  "slug": "you-look-like-spam",
+  "type": "image",
+  "pillar": "response",
+  "tone": "authority",
+  "footerCta": "SAVE FOR LATER",
+  "topic": "Your outbound number may be flagged as spam, so your callbacks are never answered.",
+  "slides": [
+    {
+      "kind": "hook",
+      "character": true,
+      "headline": [
+        {
+          "text": "DID YOU KNOW"
+        },
+        {
+          "text": "YOU LOOK LIKE SPAM",
+          "accent": true
+        }
+      ],
+      "subtitle": "(your own number, on their screen)",
+      "scene": "The ScaileAI field technician standing in a garage holding a phone out at arm length, the screen showing a single solid red rectangle, the rest of the frame plain and softly lit. All vehicles, buildings, doors and surfaces in shot have COMPLETELY BLANK panels with absolutely no writing, no company name, no logo, no lettering, no phone number and no graphics of any kind. No signage anywhere in the scene. There is NO text, no words, no numbers and no labels anywhere in the image."
+    }
+  ],
+  "caption": "Did you know your own phone number might be showing up to customers as a suspected spam call?\n\nCarriers score numbers automatically. A number that makes a lot of short outbound calls to people who do not pick up starts to look like a telemarketer, and that is exactly what a contractor returning missed calls looks like from the outside.\n\nOnce that happens, the label appears on the customer screen before they decide. They do not answer. You assume they went elsewhere. You are ringing them and they are watching it ring.\n\nThis is worth ten minutes. Ring your own number from a phone that has never called you. Ask a customer what comes up when you call. Check whether the number you actually dial out from is the one on your van and your website, because often it is not.\n\nIt is a quiet one, and it does not announce itself.",
+  "hashtags": [
+    "#contractors",
+    "#homeservices",
+    "#hvac",
+    "#roofing",
+    "#scaileai"
+  ]
+}

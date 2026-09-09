@@ -19,23 +19,34 @@ import { projectDir } from './ig-api.mjs';
 const QUEUE = path.join(projectDir, 'engine', 'queue.json');
 const dryRun = process.argv.includes('--dry-run');
 
-// Week three. Fills the slots opened by going to two a day, seven days a week.
-// Interleaved with the AUTOMATE campaign rather than blocked after it: the
-// campaign owns Thu 3 and Fri 4, this picks up the weekend either side and runs
-// through Wed 9. Pillars rotate response / quoting / follow-up / booking so no
-// two consecutive posts make the same argument.
+// The "Did you know" series. Thu 10 Sep to Mon 14 Sep, two a day.
+//
+// Every headline opens DID YOU KNOW in black with the payload beneath in the
+// accent. The repetition is deliberate: it makes the run recognisable in the
+// grid, which ten varied hooks would not.
+//
+// Topics were checked against all 25 posts published to date. An earlier set of
+// ten scripts covered the same arguments as posts already out - four of them
+// within the same week - so those are kept for video, where the audience is
+// different, and these were written fresh instead.
+//
+// Only two COMMENT calls to action across the ten. Phase 6 is not built, so a
+// comment keyword currently gets silence; there is no sense adding eight more
+// posts that ask for one.
 //
 // Earlier weeks are not repeated here. queue.json is the record of what is
 // scheduled; this list is only what is being added.
 const PLAN = [
-  ['2026-09-05', 'PM', 'weekend-calls-still-count'],
-  ['2026-09-06', 'AM', 'three-quotes-one-answer'],
-  ['2026-09-06', 'PM', 'the-review-you-never-asked-for'],
-  ['2026-09-07', 'PM', 'first-cold-snap'],
-  ['2026-09-08', 'AM', 'four-days-for-an-estimate'],
-  ['2026-09-08', 'PM', 'confirmed-is-not-showing-up'],
-  ['2026-09-09', 'AM', 'the-customer-from-two-winters-ago'],
-  ['2026-09-09', 'PM', 'referrals-are-not-a-strategy'],
+  ['2026-09-10', 'AM', 'nobody-leaves-a-voicemail'],
+  ['2026-09-10', 'PM', 'you-look-like-spam'],
+  ['2026-09-11', 'AM', 'they-would-rather-text'],
+  ['2026-09-11', 'PM', 'nobody-chases-a-quote'],
+  ['2026-09-12', 'AM', 'you-can-just-ask'],
+  ['2026-09-12', 'PM', 'google-thinks-youre-closed'],
+  ['2026-09-13', 'AM', 'how-much-roughly'],
+  ['2026-09-13', 'PM', 'the-plan-beats-the-job'],
+  ['2026-09-14', 'AM', 'callbacks-eat-the-job'],
+  ['2026-09-14', 'PM', 'nobody-sees-your-work'],
 ];
 
 const queue = JSON.parse(fs.readFileSync(QUEUE, 'utf8'));
