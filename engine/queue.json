@@ -281,7 +281,10 @@
       "publishAt": "2026-09-10T16:40",
       "slug": "you-look-like-spam",
       "type": "image",
-      "status": "queued"
+      "status": "posted",
+      "mediaId": "18132845875642942",
+      "permalink": "https://www.instagram.com/p/DdH8IV1kU2C/",
+      "postedAt": "2026-09-10T22:45:24.236Z"
     },
     {
       "id": "2026-09-11-am",
