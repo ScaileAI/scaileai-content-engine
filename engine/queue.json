@@ -301,7 +301,10 @@
       "publishAt": "2026-09-11T16:40",
       "slug": "nobody-chases-a-quote",
       "type": "image",
-      "status": "queued"
+      "status": "posted",
+      "mediaId": "18113125645823298",
+      "permalink": "https://www.instagram.com/p/DdKipdZo9tg/",
+      "postedAt": "2026-09-11T23:00:29.452Z"
     },
     {
       "id": "2026-09-12-am",
