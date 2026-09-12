@@ -311,7 +311,10 @@
       "publishAt": "2026-09-12T10:10",
       "slug": "you-can-just-ask",
       "type": "image",
-      "status": "queued"
+      "status": "posted",
+      "mediaId": "18057038753567367",
+      "permalink": "https://www.instagram.com/p/DdMZGnKEZYj/",
+      "postedAt": "2026-09-12T16:15:36.432Z"
     },
     {
       "id": "2026-09-12-pm",
