@@ -44,8 +44,11 @@ jobs:
           IG_BASE_URL: ${{ secrets.IG_BASE_URL }}
         run: node engine/run-publisher.mjs ${{ inputs.dry_run && '--dry-run' || '' }}
 
+      # always(): the publish step failing must NOT skip this. If a post published
+      # and then anything else in the same run failed, skipping the commit would
+      # leave it marked queued on main and the next run would publish it AGAIN.
       - name: Record what was published
-        if: ${{ !inputs.dry_run }}
+        if: ${{ always() && !inputs.dry_run }}
         run: |
           if [[ -n "$(git status --porcelain engine/queue.json)" ]]; then
             git config user.name  "scaileai-content-engine"

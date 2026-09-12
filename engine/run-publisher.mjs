@@ -105,13 +105,38 @@ async function apiGet(host, endpoint) {
 async function waitForContainer(host, token, id, label, tries) {
   for (let i = 0; i < tries; i++) {
     const j = await apiGet(host, `${id}?fields=status_code,status&access_token=${token}`).catch(() => ({}));
-    if (j.status_code === 'FINISHED') return;
+    if (j.status_code === 'FINISHED') {
+      // FINISHED is not the same as publishable. Instagram reported FINISHED and
+      // then rejected media_publish with "Media ID is not available" on
+      // 2026-09-11, and the same post published fine on the next run. The status
+      // is eventually consistent, so give it a moment to settle.
+      await new Promise((r) => setTimeout(r, 4000));
+      return;
+    }
     if (j.status_code === 'ERROR' || j.status_code === 'EXPIRED') {
       throw new Error(`${label} container ${j.status_code}: ${j.status || 'no detail'}`);
     }
     await new Promise((r) => setTimeout(r, 3000));
   }
   throw new Error(`${label} container did not finish in time`);
+}
+
+/**
+ * media_publish, retried once on the transient "not available" rejection.
+ *
+ * Deliberately narrow. Retrying a publish blindly risks posting twice, so this
+ * only retries the one error that means the container is not visible yet, and
+ * only once. Any other failure is left to the next scheduled run.
+ */
+async function publishContainer(host, creationId, token, label) {
+  try {
+    return await apiPost(host, `${IG_USER}/media_publish`, { creation_id: creationId }, token);
+  } catch (err) {
+    if (!/not available/i.test(err.message)) throw err;
+    log(`  ${label} container not visible yet, waiting 15s and trying once more`);
+    await new Promise((r) => setTimeout(r, 15000));
+    return apiPost(host, `${IG_USER}/media_publish`, { creation_id: creationId }, token);
+  }
 }
 
 /** Confirm every asset is actually reachable before anything is published. */
@@ -294,11 +319,11 @@ for (const post of due) {
       // looking at the profile, which reads as "the post never went out".
       const { id } = await apiPost(host, `${IG_USER}/media`, { media_type: 'REELS', video_url: urls[0], caption, share_to_feed: true }, TOKEN);
       await waitForContainer(host, TOKEN, id, 'reel', 90);
-      ({ id: mediaId } = await apiPost(host, `${IG_USER}/media_publish`, { creation_id: id }, TOKEN));
+      ({ id: mediaId } = await publishContainer(host, id, TOKEN, type));
     } else if (urls.length === 1) {
       const { id } = await apiPost(host, `${IG_USER}/media`, { image_url: urls[0], caption }, TOKEN);
       await waitForContainer(host, TOKEN, id, 'image', 30);
-      ({ id: mediaId } = await apiPost(host, `${IG_USER}/media_publish`, { creation_id: id }, TOKEN));
+      ({ id: mediaId } = await publishContainer(host, id, TOKEN, type));
     } else {
       const children = [];
       for (const [i, u] of urls.entries()) {
@@ -310,7 +335,7 @@ for (const post of due) {
         media_type: 'CAROUSEL', children: children.join(','), caption,
       }, TOKEN);
       await waitForContainer(host, TOKEN, carousel, 'carousel', 30);
-      ({ id: mediaId } = await apiPost(host, `${IG_USER}/media_publish`, { creation_id: carousel }, TOKEN));
+      ({ id: mediaId } = await publishContainer(host, carousel, TOKEN, 'carousel'));
     }
 
     let permalink = '';
